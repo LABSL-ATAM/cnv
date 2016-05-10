@@ -1,6 +1,4 @@
-Convenio Colectivo 
-
-**Decreto 366/2006**
+#Convenio Colectivo Para El Sector No Docente De Las Instituciones Universitarias Nacionales
 
 [PRINCIPIOS GENERALES](#principios-generales)  
 [CONDICIONES INGRESO Y EGRESO](#condiciones-para-el-ingreso-y-egreso)  
@@ -10,7 +8,7 @@ Convenio Colectivo
 [SALUD E HIGIENE](#salud-e-higiene)  
 [CAPACITACIÓN](#capacitacion)  
 [EVALUACIÓN DE DESEMPEÑO](#evaluacion-de-desempeÑo)  
-[DISCIPLINA](#disciplina)  
+[DISCIPLINA](#regimen-disciplinario)  
 
 **UNIVERSIDADES NACIONALES**
 
