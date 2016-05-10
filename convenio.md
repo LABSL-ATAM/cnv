@@ -1,29 +1,16 @@
-<div align="right">
+Convenio Colectivo 
 
-<span class="Estilo2">FATUN / Convenio Colectivo </span>
+**Decreto 366/2006**
 
-</div>
-
-**Decreto 366/2006**\
-\
- <span class="Estilo4">| [PRINCIPIOS
-GENERALES](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#1) |
-[CONDICIONES INGRESO Y
-EGRESO](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#2) |
-[REGIMEN DE
-CONCURSOS](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#3) |
-[RETRIBUCIONES](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#4)
-|\
- | [TIEMPO DE
-TRABAJO](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#5) |
-[SALUD E
-HIGIENE](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#6) |
-[CAPACITACIÓN](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#7)
-| [EVALUACIÓN DE
-DESEMPEÑO](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#8) |
-[DISCIPLINA](http://www.fatun.org.ar/fatun2_convenio_colectivo.html#9) |
-</span>\
-\
+[PRINCIPIOS GENERALES](#1)  
+[CONDICIONES INGRESO Y EGRESO](#2)  
+[REGIMEN DE CONCURSOS](#3)  
+[RETRIBUCIONES](#4)  
+[TIEMPO DE TRABAJO](#5)  
+[SALUD E HIGIENE](#6)  
+[CAPACITACIÓN](#7)
+[EVALUACIÓN DE DESEMPEÑO](#8)  
+[DISCIPLINA](#9)  
 
 **UNIVERSIDADES NACIONALES**
 
@@ -115,12 +102,11 @@ Art. 2º — Comuníquese, publíquese, dése a la Dirección Nacional del
 Registro Oficial y archívese. — KIRCHNER. — Daniel F. Filmus. — Carlos
 A. Tomada.
 
-CONVENIO COLECTIVO PARA EL SECTOR NO DOCENTE DE LAS INSTITUCIONES
-UNIVERSITARIAS NACIONALES
+# CONVENIO COLECTIVO PARA EL SECTOR NO DOCENTE DE LAS INSTITUCIONES UNIVERSITARIAS NACIONALES
 
-TITULO 1
+## TÍTULO 1
 
-Partes contratantes y acreditación de personería
+### Partes contratantes y acreditación de personería
 
 Art. 1º: La FATUN, con personería gremial Nº 1394/74, con domicilio en
 Medrano 843, 1º piso de la Ciudad Autónoma de Buenos Aires, en adelante
@@ -134,21 +120,21 @@ Plenario del Consejo Interuniversitario Nacional (CIN) número 182/95 y
 estatuto de FATUN. Ambas partes acreditan su personería con la
 documentación que se adjunta.
 
-Actividad y trabajadores a que se refiere
+### Actividad y trabajadores a que se refiere
 
 Art. 2º: La presente Convención Colectiva de Trabajo comprende a todos
 los trabajadores de las Instituciones Universitarias nacionales,
 cualquiera sea su situación de revista, excluido el personal de
 conducción política y los trabajadores docentes.
 
-Ambito de aplicación
+### Ambito de aplicación
 
 Art. 3º: El presente convenio será de aplicación en todo territorio
 donde las Instituciones Universitarias nacionales tengan actividades de
 cualquier tipo que sea, con las limitaciones sobre extraterritorialidad
 que impongan las normas de Derecho laboral argentino.
 
-Período de vigencia
+### Período de vigencia
 
 Art. 4º: El presente convenio colectivo tendrá una vigencia de dos años,
 a contar desde el día siguiente a la publicación del decreto que lo
@@ -181,9 +167,9 @@ con resguardo de los mecanismos propios de adopción de las decisiones
 regidos por el Acuerdo Plenario del CIN Nº 182/95 y el Estatuto de
 FATUN.
 
-TITULO 2
+## TÍTULO 2
 
-<span id="1"></span>PRINCIPIOS GENERALES
+### <a name"1"></a>PRINCIPIOS GENERALES
 
 Art. 6º: Fines compartidos: Constituye objeto esencial en el accionar de
 las partes realizar las acciones tendientes a brindar el más eficaz
@@ -512,9 +498,9 @@ sistema se acordará en las paritarias particulares, y en cada caso de
 traslado se deberá contar con la opinión favorable de ambas
 Instituciones Universitarias nacionales y del trabajador.
 
-TITULO 3
+## TÍTULO 3
 
-<span id="2"></span>CONDICIONES PARA EL INGRESO Y EGRESO
+### <a name"2"></a>CONDICIONES PARA EL INGRESO Y EGRESO
 
 Art. 21º: Para ingresar como trabajador de una Institución Universitaria
 nacional se requieren las condiciones de conducta e idoneidad para el
@@ -565,9 +551,9 @@ permanente.
 Art. 23º: La jubilación o retiro, la intimación a jubilarse y la
 renuncia se regirán por la normativa vigente en la materia.
 
-TITULO 4
+## TÍTULO 4
 
-<span id="3"></span>REGIMEN DE CONCURSOS
+### <a name"3"></a>REGIMEN DE CONCURSOS
 
 Art. 24º: El presente título regula las pautas generales de los
 procedimientos de selección de personal no docente para la cobertura de
@@ -815,9 +801,9 @@ para presentarse a un nuevo concurso en la misma Institución
 universitaria, por el plazo de un año. Será designado en este caso el
 concursante que siga en el orden de méritos.
 
-TITULO 5
+## TÍTULO 5
 
-<span id="4"></span>AGRUPAMIENTOS Y RETRIBUCIONES
+### <a name"4"></a>AGRUPAMIENTOS Y RETRIBUCIONES
 
 Agrupamientos
 
@@ -862,7 +848,7 @@ atribuciones y responsabilidades, conforme a lo previsto en las
 respectivas estructuras orgánico funcionales y que corresponde a cada
 trabajador según su categoría de revista.
 
-Agrupamientos
+#### Agrupamientos
 
 Art. 48º: Agrupamiento Administrativo: Este agrupamiento incluirá al
 personal que desempeñe funciones de dirección, coordinación,
@@ -1069,7 +1055,7 @@ c\) Tramo Inicial: Incluirá a los trabajadores que desarrollen tareas de
 carácter operativo, en relación de dependencia con las jerarquías del
 tramo medio se integrará con las categorías 6 y 7.
 
-Retribuciones
+#### Retribuciones
 
 Art. 52º: La retribución del trabajador no docente se compone del sueldo
 básico correspondiente a su categoría; los adicionales particulares y
@@ -1082,47 +1068,19 @@ expresados, teniendo en cuenta los coeficientes que a continuación se
 detallan, y cuyo monto testigo es el coeficiente 1.00 = a la categoría
 7.
 
-CATEGORIAS
++-------------+------------+-------------+  
+|  CATEGORIAS |  BASICOS   |  TRAMOS     |  
++-------------+------------+-------------+  
+|  7          |  1.00      |  INICIAL    |  
+|  6          |  1.20      |             |  
+|  5          |  1.44      |             |  
+|  4          |  1.73      |  INTERMEDIO |  
+|  3          |  2.08      |             |  
+|  2          |  2.50      |  MAYOR      |  
+|  1          |  3.00      |             |  
++-------------+------------+-------------+  
 
-BASICOS
-
-TRAMOS
-
-7
-
-1.00
-
-INICIAL
-
-6
-
-1.20
-
-5
-
-1.44
-
-INTERMEDIO
-
-4
-
-1.73
-
-3
-
-2.08
-
-MAYOR
-
-2
-
-2.50
-
-1
-
-3.00
-
-Adicionales
+#### Adicionales
 
 Art. 54º: Establécense los siguientes adicionales:
 
@@ -1251,18 +1209,18 @@ de hasta un máximo del setenta por ciento (70%) de la diferencia entre
 la asignación básica de la categoría de revista y la de la inmediata
 superior, de acuerdo con el siguiente detalle:
 
-+--------------------------------------+--------------------------------------+
-| Años de permanencia en la categoría  | % de la diferencia con la categoría  |
-|                                      | inmediata superior                   |
-+--------------------------------------+--------------------------------------+
-| 2                                    | 10                                   |
-|                                      |                                      |
-| 4                                    | 25                                   |
-|                                      |                                      |
-| 6                                    | 45                                   |
-|                                      |                                      |
-| 8                                    | 70                                   |
-+--------------------------------------+--------------------------------------+
++--------------------------------------+--------------------------------------+  
+| Años de permanencia en la categoría  | % de la diferencia con la categoría  |  
+|                                      | inmediata superior                   |  
++--------------------------------------+--------------------------------------+  
+| 2                                    | 10                                   |  
+|                                      |                                      |  
+| 4                                    | 25                                   |  
+|                                      |                                      |  
+| 6                                    | 45                                   |  
+|                                      |                                      |  
+| 8                                    | 70                                   |  
++--------------------------------------+--------------------------------------+  
 
 Este adicional dejará de percibirse cuando el trabajador sea promovido.
 
@@ -1345,7 +1303,7 @@ mayor responsabilidad. En ningún caso podrá utilizarse este suplemento
 para disponer pagos diferenciados donde no existan las circunstancias
 antes anotadas.
 
-Tipificador de funciones
+#### Tipificador de funciones
 
 Art. 73: La Comisión Negociadora de Nivel General elaborará un
 tipificador de funciones que se integrará como anexo del convenio
@@ -1364,11 +1322,11 @@ retroactividad a la fecha de aquel encasillamiento. Cualquier
 interpretación o aclaración complementaria referida al presente convenio
 colectivo serán resuelta por la comisión creada al efecto.
 
-TITULO 6
+## TÍTULO 6
 
-<span id="5"></span>TIEMPO DE TRABAJO
+### <a name"5"></a>TIEMPO DE TRABAJO
 
-Jornada de trabajo
+#### Jornada de trabajo
 
 Art. 74º: Se establece la jornada de trabajo convencional de 35 horas
 semanales, siete diarias continuas corridas, de lunes a viernes. El
@@ -1501,7 +1459,7 @@ de acuerdo a lo establecido en el art. 59º. Igual procedimiento se
 llevará a cabo a favor de sus derecho-habientes, los que percibirán el
 monto correspondiente.
 
-Licencias por enfermedad
+#### Licencias por enfermedad
 
 Art. 91º: Al trabajador que deba atenderse afecciones o lesiones de
 corto tratamiento, que inhabiliten para el desempeño del trabajo,
@@ -1555,7 +1513,7 @@ recomendaciones efectuadas, debiendo abonar la retribución total por un
 lapso que no podrá extenderse por más de un año. Vencido ese lapso, se
 aplicarán las disposiciones relativas a la jubilación por invalidez.
 
-Licencias extraordinarias y justificaciones
+#### Licencias extraordinarias y justificaciones
 
 Art. 97º: El trabajador gozará de las siguientes licencias especiales:
 
@@ -1766,9 +1724,9 @@ Art. 113º: El uso de las licencias disponibles reguladas en los
 artículos 100º, 101º y 102º será considerado en la evaluación anual del
 agente.
 
-TITULO 7
+## TÍTULO 7
 
-<span id="6"></span>SALUD E HIGIENE
+### <a name"6"></a>SALUD E HIGIENE
 
 Art. 114º: Las Instituciones Universitarias nacionales deben hacer
 observar las pautas y limitaciones al trabajo establecido en leyes,
@@ -1873,9 +1831,9 @@ en que sea ineludible la exposición perjudicial. Esta última será la que
 determine la Superintendencia de Riesgos del Trabajo o la entidad que en
 el futuro la reemplace.
 
-TITULO 8
+## TÍTULO 8
 
-<span id="7"></span>CAPACITACION
+### <a name"7"></a>CAPACITACION
 
 Art. 119º: Las Instituciones Universitarias nacionales deberán ofrecer a
 sus trabajadores cursos de capacitación permanente, que posibiliten su
@@ -1970,9 +1928,9 @@ General.
 Art. 130: En los casos en que haya una asignación de fondos específica
 para estos fines, la Comisión Asesora de Capacitación auditará su uso.
 
-TITULO 9
+## TÍTULO 9
 
-<span id="8"></span>EVALUACION DE DESEMPEÑO
+### <a name"8"></a>EVALUACION DE DESEMPEÑO
 
 Art. 131º: Se entiende por evaluación de desempeño, la realizada acerca
 de competencias, aptitudes y actitudes del trabajador, y del logro de
@@ -2061,9 +2019,9 @@ para determinar su objetividad y eficiencia. Estará a cargo de
 funcionarios de la gestión, y su resultado se hará constar en el legajo
 respectivo.
 
-TITULO 10
+## TÍTULO 10
 
-<span id="9"></span>REGIMEN DISCIPLINARIO
+### <a name"9"></a>REGIMEN DISCIPLINARIO
 
 Art. 140º: Los trabajadores no docentes de las Instituciones
 Universitarias nacionales se encontrarán sujetos a las siguientes
@@ -2204,9 +2162,9 @@ sustituir la medida aplicada por otra de mayor gravedad. El
 sobreseimiento o la absolución dictados en la causa criminal, no
 afectarán la sanción dispuesta en el orden administrativo.
 
-TITULO 11
+## TÍTULO 11
 
-DISPOSICIONES GENERALES
+### DISPOSICIONES GENERALES
 
 Art. 149º: En el marco del presente convenio, las Instituciones
 Universitarias nacionales asignarán un área de responsabilidad
@@ -2325,39 +2283,39 @@ de Educación de la Nación, conforme lo convenido en el Acta Acuerdo
 firmada entre el CIN, FATUN y el Ministerio de Educación, el día 4 de
 noviembre de 2004.
 
-![](Fatun_files/dto366-5.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5.jpg)
 
-![](Fatun_files/dto366-6.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-6.jpg)
 
-![](Fatun_files/dto366-7.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-7.jpg)
 
-![](Fatun_files/dto366-8.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-8.jpg)
 
-![](Fatun_files/dto366-9.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-9.jpg)
 
-PARTE IV: AGRUPAMIENTO ASISTENCIAL
+## PARTE IV: AGRUPAMIENTO ASISTENCIAL
 
-Subgrupo A: Profesional.
+#### Subgrupo A: Profesional.
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Técnico — Profesional, A.— Profesional.
 
-Subgrupo B
+#### Subgrupo B
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Técnico — Profesional, según el caso.
 
-Subgrupo C
+#### Subgrupo C
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Administrativo.
 
-Subgrupo D
+#### Subgrupo D
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Mantenimiento, Producción y Servicios.
 
-—FE DE ERRATAS—
+## FE DE ERRATAS—
 
 **Decreto 366/2006**
 
@@ -2367,15 +2325,8 @@ del Tipificador de Funciones, que integra el Convenio Colectivo anexo a
 dicha norma, motivo por el cual se transcriben a continuación en forma
 correcta dichas Partes
 
-![](Fatun_files/dto366-7.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-7.jpg)
 
-![](Fatun_files/dto366-8.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-8.jpg)
 
-![](Fatun_files/dto366-9.jpg)
-
- 
-
- 
-
- 
-
+![](http://www.fatun.org.ar/convenio_archivos/dto366-9.jpg)
