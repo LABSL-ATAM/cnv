@@ -1206,18 +1206,13 @@ de hasta un máximo del setenta por ciento (70%) de la diferencia entre
 la asignación básica de la categoría de revista y la de la inmediata
 superior, de acuerdo con el siguiente detalle:
 
-+--------------------------------------+--------------------------------------+  
-| Años de permanencia en la categoría  | % de la diferencia con la categoría  |  
-|                                      | inmediata superior                   |  
-+--------------------------------------+--------------------------------------+  
-| 2                                    | 10                                   |  
-|                                      |                                      |  
-| 4                                    | 25                                   |  
-|                                      |                                      |  
-| 6                                    | 45                                   |  
-|                                      |                                      |  
-| 8                                    | 70                                   |  
-+--------------------------------------+--------------------------------------+  
+
+Años de permanencia en la categoría | % de la diferencia con la categoría inmediata superior 
+--- | --- 
+| 2 | 10    
+| 4 | 25       
+| 6 | 45   
+| 8 | 70 
 
 Este adicional dejará de percibirse cuando el trabajador sea promovido.
 
