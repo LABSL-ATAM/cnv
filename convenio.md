@@ -3,7 +3,7 @@ Convenio Colectivo
 **Decreto 366/2006**
 
 [PRINCIPIOS GENERALES](#principios-generales)  
-[CONDICIONES INGRESO Y EGRESO](#condiciones-ingreso-y-egreso)  
+[CONDICIONES INGRESO Y EGRESO](#condiciones-para-el-ingreso-y-egreso)  
 [REGIMEN DE CONCURSOS](#regimen-de-concursos)  
 [RETRIBUCIONES](#retribuciones)  
 [TIEMPO DE TRABAJO](#tiempo-de-trabajo)  
