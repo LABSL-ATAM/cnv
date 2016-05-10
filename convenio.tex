@@ -1,27 +1,101 @@
-[[convenio-colectivo-para-el-sector-no-docente-de-las-instituciones-universitarias-nacionales]]
-Convenio Colectivo Para El Sector No Docente De Las Instituciones
-Universitarias Nacionales
--------------------------------------------------------------------------------------------
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\usepackage[usenames,dvipsnames]{color}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
 
-link:#principios-generales[PRINCIPIOS GENERALES] +
-link:#condiciones-para-el-ingreso-y-egreso[CONDICIONES INGRESO Y
-EGRESO] +
-link:#regimen-de-concursos[REGIMEN DE CONCURSOS] +
-link:#retribuciones[RETRIBUCIONES] +
-link:#tiempo-de-trabajo[TIEMPO DE TRABAJO] +
-link:#salud-e-higiene[SALUD E HIGIENE] +
-link:#capacitacion[CAPACITACIÓN] +
-link:#evaluacion-de-desempeÑo[EVALUACIÓN DE DESEMPEÑO] +
-link:#regimen-disciplinario[DISCIPLINA]
+\date{}
 
-*UNIVERSIDADES NACIONALES*
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
 
-*Decreto 366/2006*
+\begin{document}
 
-*Homológase el Convenio Colectivo de Trabajo para el Sector No Docente
-de las Instituciones Universitarias Nacionales celebrado por el Consejo
-Interuniversitario Nacional y la Federación Argentina de Trabajadores de
-las Universidades Nacionales, de fecha 16 de junio de 2005.*
+\section{Convenio Colectivo Para El Sector No Docente De Las
+Instituciones Universitarias
+Nacionales}\label{convenio-colectivo-para-el-sector-no-docente-de-las-instituciones-universitarias-nacionales}
+
+\hyperref[principios-generales]{PRINCIPIOS GENERALES}\\
+\hyperref[condiciones-para-el-ingreso-y-egreso]{CONDICIONES INGRESO Y
+EGRESO}\\
+\hyperref[regimen-de-concursos]{REGIMEN DE CONCURSOS}\\
+\hyperref[retribuciones]{RETRIBUCIONES}\\
+\hyperref[tiempo-de-trabajo]{TIEMPO DE TRABAJO}\\
+\hyperref[salud-e-higiene]{SALUD E HIGIENE}\\
+\hyperref[capacitacion]{CAPACITACIÓN}\\
+\hyperref[evaluacion-de-desempeuxd1o]{EVALUACIÓN DE DESEMPEÑO}\\
+\hyperref[regimen-disciplinario]{DISCIPLINA}
+
+\textbf{UNIVERSIDADES NACIONALES}
+
+\textbf{Decreto 366/2006}
+
+\textbf{Homológase el Convenio Colectivo de Trabajo para el Sector No
+Docente de las Instituciones Universitarias Nacionales celebrado por el
+Consejo Interuniversitario Nacional y la Federación Argentina de
+Trabajadores de las Universidades Nacionales, de fecha 16 de junio de
+2005.}
 
 Bs. As., 31/3/2006
 
@@ -88,34 +162,31 @@ EL PRESIDENTE DE LA NACION ARGENTINA
 
 DECRETA:
 
-'''''
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-Artículo 1º — Homológase el Convenio Colectivo de Trabajo para el Sector
-No Docente de las Instituciones Universitarias Nacionales, celebrado por
-el CONSEJO INTERUNIVERSITARIO NACIONAL (C.I.N) y la FEDERACION ARGENTINA
-DE TRABAJADORES DE LAS UNIVERSIDADES NACIONALES (F.A.T.U.N.), sector
-gremial que representa al Personal No Docente de las Instituciones
-Universitarias Nacionales, de fecha 16 de junio de 2005, cuya copia
-autenticada se incorpora como Anexo del presente Decreto.
+Artículo 1º --- Homológase el Convenio Colectivo de Trabajo para el
+Sector No Docente de las Instituciones Universitarias Nacionales,
+celebrado por el CONSEJO INTERUNIVERSITARIO NACIONAL (C.I.N) y la
+FEDERACION ARGENTINA DE TRABAJADORES DE LAS UNIVERSIDADES NACIONALES
+(F.A.T.U.N.), sector gremial que representa al Personal No Docente de
+las Instituciones Universitarias Nacionales, de fecha 16 de junio de
+2005, cuya copia autenticada se incorpora como Anexo del presente
+Decreto.
 
-'''''
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-Art. 2º — Comuníquese, publíquese, dése a la Dirección Nacional del
-Registro Oficial y archívese. — KIRCHNER. — Daniel F. Filmus. — Carlos
-A. Tomada.
+Art. 2º --- Comuníquese, publíquese, dése a la Dirección Nacional del
+Registro Oficial y archívese. --- KIRCHNER. --- Daniel F. Filmus. ---
+Carlos A. Tomada.
 
-[[convenio-colectivo-para-el-sector-no-docente-de-las-instituciones-universitarias-nacionales-1]]
-CONVENIO COLECTIVO PARA EL SECTOR NO DOCENTE DE LAS INSTITUCIONES
-UNIVERSITARIAS NACIONALES
--------------------------------------------------------------------------------------------
+\section{CONVENIO COLECTIVO PARA EL SECTOR NO DOCENTE DE LAS
+INSTITUCIONES UNIVERSITARIAS
+NACIONALES}\label{convenio-colectivo-para-el-sector-no-docente-de-las-instituciones-universitarias-nacionales-1}
 
-[[título-1]]
-TÍTULO 1
-~~~~~~~~
+\subsection{TÍTULO 1}\label{tuxedtulo-1}
 
-[[partes-contratantes-y-acreditación-de-personería]]
-Partes contratantes y acreditación de personería
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{Partes contratantes y acreditación de
+personería}\label{partes-contratantes-y-acreditaciuxf3n-de-personeruxeda}
 
 Art. 1º: La FATUN, con personería gremial Nº 1394/74, con domicilio en
 Medrano 843, 1º piso de la Ciudad Autónoma de Buenos Aires, en adelante
@@ -129,27 +200,22 @@ Plenario del Consejo Interuniversitario Nacional (CIN) número 182/95 y
 estatuto de FATUN. Ambas partes acreditan su personería con la
 documentación que se adjunta.
 
-[[actividad-y-trabajadores-a-que-se-refiere]]
-Actividad y trabajadores a que se refiere
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{Actividad y trabajadores a que se
+refiere}\label{actividad-y-trabajadores-a-que-se-refiere}
 
 Art. 2º: La presente Convención Colectiva de Trabajo comprende a todos
 los trabajadores de las Instituciones Universitarias nacionales,
 cualquiera sea su situación de revista, excluido el personal de
 conducción política y los trabajadores docentes.
 
-[[ambito-de-aplicación]]
-Ambito de aplicación
-^^^^^^^^^^^^^^^^^^^^
+\subsubsection{Ambito de aplicación}\label{ambito-de-aplicaciuxf3n}
 
 Art. 3º: El presente convenio será de aplicación en todo territorio
 donde las Instituciones Universitarias nacionales tengan actividades de
 cualquier tipo que sea, con las limitaciones sobre extraterritorialidad
 que impongan las normas de Derecho laboral argentino.
 
-[[período-de-vigencia]]
-Período de vigencia
-^^^^^^^^^^^^^^^^^^^
+\subsubsection{Período de vigencia}\label{peruxedodo-de-vigencia}
 
 Art. 4º: El presente convenio colectivo tendrá una vigencia de dos años,
 a contar desde el día siguiente a la publicación del decreto que lo
@@ -182,13 +248,10 @@ con resguardo de los mecanismos propios de adopción de las decisiones
 regidos por el Acuerdo Plenario del CIN Nº 182/95 y el Estatuto de
 FATUN.
 
-[[título-2]]
-TÍTULO 2
-~~~~~~~~
+\subsection{TÍTULO 2}\label{tuxedtulo-2}
 
-[[principios-generales]]
-PRINCIPIOS GENERALES
-^^^^^^^^^^^^^^^^^^^^
+\hyperdef{}{principios-generales}{\subsubsection{PRINCIPIOS
+GENERALES}\label{principios-generales}}
 
 Art. 6º: Fines compartidos: Constituye objeto esencial en el accionar de
 las partes realizar las acciones tendientes a brindar el más eficaz
@@ -249,36 +312,36 @@ con el empleador.
 Art. 11º: Del trabajador: El personal no docente permanente de las
 Instituciones Universitarias nacionales tendrá los siguientes derechos:
 
-\a) Estabilidad.
+a) Estabilidad.
 
-\b) Retribución por sus servicios.
+b) Retribución por sus servicios.
 
-\c) Igualdad de oportunidades en la carrera.
+c) Igualdad de oportunidades en la carrera.
 
-\d) Capacitación permanente.
+d) Capacitación permanente.
 
-\e) Libre agremiación y negociación colectiva.
+e) Libre agremiación y negociación colectiva.
 
-\f) Licencias, justificaciones y franquicias.
+f) Licencias, justificaciones y franquicias.
 
-\g) Renuncia.
+g) Renuncia.
 
-\h) Jubilación o retiro.
+h) Jubilación o retiro.
 
-\i) Condiciones adecuadas que aseguren la higiene y seguridad en el
+i) Condiciones adecuadas que aseguren la higiene y seguridad en el
 trabajo.
 
-\j) Derecho a la información de conformidad con lo establecido por la
+j) Derecho a la información de conformidad con lo establecido por la
 Recomendación número 163 de la OIT.
 
-\k) Asistencia Social para sí y su familia, de acuerdo a la legislación
+k) Asistencia Social para sí y su familia, de acuerdo a la legislación
 vigente.
 
-\I) Compensaciones e indemnizaciones.
+I) Compensaciones e indemnizaciones.
 
-\m) Interposición de recursos.
+m) Interposición de recursos.
 
-\n) Participación por intermedio de las Organizaciones Gremiales, de
+n) Participación por intermedio de las Organizaciones Gremiales, de
 acuerdo al presente Convenio.
 
 La presente enumeración no es taxativa, y se enuncia sin perjuicio de
@@ -289,33 +352,33 @@ particularidades de la actividad desempeñada pudieran agregarse en los
 respectivos convenios particulares, todos los agentes tienen los
 siguientes deberes:
 
-\a. Prestar el servicio personalmente, encuadrando su cumplimiento en
+a. Prestar el servicio personalmente, encuadrando su cumplimiento en
 principios de eficiencia y eficacia, capacitándose para ello y de
 acuerdo a las condiciones y modalidades que resultan del presente
 convenio.
 
-\b. Observar una actitud ética acorde con su calidad de empleado
+b. Observar una actitud ética acorde con su calidad de empleado
 universitario y conducirse con respeto y cortesía en sus relaciones con
 el público y el resto del personal.
 
-\c. Responder por la eficacia y el rendimiento de la gestión del
-personal del área a su cargo.
+c. Responder por la eficacia y el rendimiento de la gestión del personal
+del área a su cargo.
 
-\d. Respetar y hacer cumplir, dentro del marco de competencia de su
+d. Respetar y hacer cumplir, dentro del marco de competencia de su
 función, el sistema jurídico vigente.
 
-\e. Obedecer toda orden emanada del superior jerárquico competente que
+e. Obedecer toda orden emanada del superior jerárquico competente que
 reúna las formalidades del caso y tenga por objeto la realización de
 actos de servicio compatibles con la función del agente.
 
-\f. Observar el deber de fidelidad que se derive de la índole de las
+f. Observar el deber de fidelidad que se derive de la índole de las
 tareas que le fueran asignadas y guardar la discreción correspondiente,
 con respecto a todos los hechos e informaciones de los cuales tenga
 conocimiento en el ejercicio o con motivo del ejercicio de sus
 funciones, sin perjuicio de lo que establezcan las disposiciones
 vigentes en materia de secreto o reserva administrativa.
 
-\g. Llevar a conocimiento de sus superiores todo acto, omisión o
+g. Llevar a conocimiento de sus superiores todo acto, omisión o
 procedimiento que causare o pudiere causar perjuicio a la institución
 universitaria, configurar delito, o resultar una aplicación ineficiente
 de los recursos públicos. Cuando el acto, omisión o procedimiento
@@ -323,31 +386,31 @@ involucrare a su superiores inmediatos, podrá hacerlo conocer
 directamente a las autoridades de la Institución Universitaria o
 denunciarlo al órgano judicial competente.
 
-\h. Concurrir a la citación por la instrucción de un sumario, teniendo
+h. Concurrir a la citación por la instrucción de un sumario, teniendo
 obligación de prestar declaración sólo cuando se lo requiera en calidad
 de testigo.
 
-\i. Someterse a examen psicofísico, en la forma que determine la
+i. Someterse a examen psicofísico, en la forma que determine la
 reglamentación.
 
-\j. Permanecer en el cargo en caso de renuncia, por el término de
-treinta días corridos, si antes no fuera reemplazado o aceptada su
-dimisión o autorizado a cesar en sus funciones.
+j. Permanecer en el cargo en caso de renuncia, por el término de treinta
+días corridos, si antes no fuera reemplazado o aceptada su dimisión o
+autorizado a cesar en sus funciones.
 
-\k. Excusarse de intervenir en toda actuación que pueda originar
+k. Excusarse de intervenir en toda actuación que pueda originar
 interpretaciones de parcialidad.
 
 I. Velar por el cuidado y la conservación de los bienes que integran el
 patrimonio de la Institución Universitaria y los de terceros que
 específicamente se pongan bajo su custodia.
 
-\m. Seguir la vía jerárquica correspondiente en las peticiones y
+m. Seguir la vía jerárquica correspondiente en las peticiones y
 tramitaciones realizadas, salvo lo preceptuado en el inciso g.
 
-\n) Encuadrarse en las disposiciones legales y reglamentarias sobre
+n) Encuadrarse en las disposiciones legales y reglamentarias sobre
 incompatibilidad y acumulación de cargos.
 
-\o) Declarar bajo juramento su situación patrimonial y modificaciones
+o) Declarar bajo juramento su situación patrimonial y modificaciones
 ulteriores en los casos que así se disponga.
 
 Art. 13º: Sin perjuicio de las prohibiciones que en función de las
@@ -355,59 +418,59 @@ particularidades de la actividad desempeñada pudieran agregarse en los
 respectivos convenios particulares, todos los agentes quedan sujetos a
 las siguientes prohibiciones:
 
-\a) Patrocinar trámites o gestiones administrativas referentes a asuntos
+a) Patrocinar trámites o gestiones administrativas referentes a asuntos
 de terceros que se vinculen con sus funciones.
 
-\b) Dirigir, administrar, asesorar, patrocinar, representar o prestar
+b) Dirigir, administrar, asesorar, patrocinar, representar o prestar
 servicios remunerados o no, a personas de existencia visible o jurídica
 que gestionen o exploten concesiones o privilegios de la Institución
 Universitaria a la que pertenezca o que fueran sus proveedores o
 contratistas.
 
-\c) Recibir directa o indirectamente beneficios originados en contratos,
+c) Recibir directa o indirectamente beneficios originados en contratos,
 concesiones o franquicias que celebre u otorgue la institución
 universitaria.
 
-\d) Valerse directa o indirectamente de facultades o prerrogativas
+d) Valerse directa o indirectamente de facultades o prerrogativas
 inherentes a sus funciones para fines ajenos a dicha función o para
 realizar proselitismo o acción política.
 
-\e) Aceptar dádivas, obsequios u otros beneficios u obtener ventajas de
+e) Aceptar dádivas, obsequios u otros beneficios u obtener ventajas de
 cualquier índole, con motivo u ocasión del desempeño de sus funciones.
 
-\f) Representar y/o patrocinar a litigantes o intervenir en gestiones
+f) Representar y/o patrocinar a litigantes o intervenir en gestiones
 judiciales o extrajudiciales contra la Institución Universitaria a la
 que pertenezca.
 
-\g) Desarrollar toda acción u omisión que suponga discriminación por
+g) Desarrollar toda acción u omisión que suponga discriminación por
 razón de raza, religión, nacionalidad, opinión, sexo o cualquier otra
 condición o circunstancia personal o social.
 
-\h) Hacer uso indebido o con fines particulares del patrimonio
+h) Hacer uso indebido o con fines particulares del patrimonio
 universitario.
 
 Art. 14º: Del empleador: Sin menoscabo de las obligaciones emergentes de
 otras cláusulas del presente convenio y de los convenios particulares,
 son obligaciones del empleador:
 
-\a) Observar las normas legales sobre higiene y seguridad en el trabajo,
+a) Observar las normas legales sobre higiene y seguridad en el trabajo,
 así como las disposiciones sobre pausas y limitaciones a la duración del
 trabajo establecidas en la legislación vigente y el presente convenio.
 
-\b) Garantizar al trabajador ocupación efectiva, de acuerdo con su
+b) Garantizar al trabajador ocupación efectiva, de acuerdo con su
 calificación laboral, salvo por razones fundadas que impidan cumplir
 esta obligación.
 
-\c) Cumplir con las obligaciones que resulten de las leyes, este
-convenio colectivo y de los sistemas de seguridad social, de modo de
-posibilitar al trabajador el goce íntegro y oportuno de los beneficios
-que tales disposiciones le acuerdan.
+c) Cumplir con las obligaciones que resulten de las leyes, este convenio
+colectivo y de los sistemas de seguridad social, de modo de posibilitar
+al trabajador el goce íntegro y oportuno de los beneficios que tales
+disposiciones le acuerdan.
 
-\d) Depositar en tiempo y forma los fondos correspondientes a la
+d) Depositar en tiempo y forma los fondos correspondientes a la
 seguridad social y aportes sindicales a su cargo así como aquellos en
 los que actúe como agente de retención.
 
-\e) Entregar al trabajador, al extinguirse la relación laboral o durante
+e) Entregar al trabajador, al extinguirse la relación laboral o durante
 ésta cuando medien causas razonables, un certificado de trabajo
 conteniendo las indicaciones sobre el tiempo de la prestación de
 servicios, naturaleza de éstos, calificación laboral alcanzada, nivel de
@@ -415,23 +478,23 @@ capacitación acreditada, constancia de los sueldos recibidos y de los
 aportes y contribuciones efectuados con destino a los organismos de
 seguridad social.
 
-\f) Reintegrar al trabajador los gastos incurridos por éste para el
+f) Reintegrar al trabajador los gastos incurridos por éste para el
 cumplimiento adecuado del trabajo, que hayan sido previamente
 autorizados por autoridades competentes.
 
-\g) Garantizar la dignidad del trabajador en el ámbito laboral así como
+g) Garantizar la dignidad del trabajador en el ámbito laboral así como
 la no arbitrariedad en la aplicación de sistemas de controles personales
 destinados a la protección de los bienes de la Institución
 Universitaria.
 
-\h) Abstenerse de disponer modificaciones en las condiciones o
+h) Abstenerse de disponer modificaciones en las condiciones o
 modalidades de la relación laboral, con el objeto de encubrir la
 aplicación de sanciones.
 
-\i) Garantizar la formación en el trabajo, en condiciones igualitarias
-de acceso y trato.
+i) Garantizar la formación en el trabajo, en condiciones igualitarias de
+acceso y trato.
 
-\j) Informar mensualmente a los organismos sindicales signatarios, en
+j) Informar mensualmente a los organismos sindicales signatarios, en
 forma fehaciente, las alteraciones en la situación de revista que se
 operen respecto de su padrón de afiliados, y que incidan en sus derechos
 y obligaciones sindicales.
@@ -465,11 +528,11 @@ Normativas y Estructura Salarial integrada por tres (3) representantes
 de cada una de las partes signatarias del presente Convenio y que tiene
 como misiones y funciones:
 
-\a. Analizar y adecuar las situaciones de revista y las funciones
+a. Analizar y adecuar las situaciones de revista y las funciones
 efectivamente desempeñadas, en el marco del régimen escalafonario
 vigente.
 
-\b. Proponer un Sistema Universitario Nacional de Categorías (SUNC) que
+b. Proponer un Sistema Universitario Nacional de Categorías (SUNC) que
 identifique el tipo de labor de cada categoría profesional y una
 estructura salarial compatible con los acuerdos alcanzados.
 
@@ -517,13 +580,10 @@ sistema se acordará en las paritarias particulares, y en cada caso de
 traslado se deberá contar con la opinión favorable de ambas
 Instituciones Universitarias nacionales y del trabajador.
 
-[[título-3]]
-TÍTULO 3
-~~~~~~~~
+\subsection{TÍTULO 3}\label{tuxedtulo-3}
 
-[[condiciones-para-el-ingreso-y-egreso]]
-CONDICIONES PARA EL INGRESO Y EGRESO
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\hyperdef{}{condiciones-para-el-ingreso-y-egreso}{\subsubsection{CONDICIONES
+PARA EL INGRESO Y EGRESO}\label{condiciones-para-el-ingreso-y-egreso}}
 
 Art. 21º: Para ingresar como trabajador de una Institución Universitaria
 nacional se requieren las condiciones de conducta e idoneidad para el
@@ -532,55 +592,52 @@ que se establezcan, cumplir satisfactoriamente con el examen de aptitud
 psicofísica correspondiente y no estar incurso en alguna de las
 circunstancias que se detallan a continuación:
 
-\a) Haber sido condenado por delito doloso, hasta el cumplimiento de la
+a) Haber sido condenado por delito doloso, hasta el cumplimiento de la
 pena privativa de la libertad, o el término previsto para la
 prescripción de la pena.
 
-\b) Haber sido condenado por delito en perjuicio de cualquier
-Institución Universitaria nacional o de la Administración pública
-nacional, provincial o municipal.
+b) Haber sido condenado por delito en perjuicio de cualquier Institución
+Universitaria nacional o de la Administración pública nacional,
+provincial o municipal.
 
-\c) Estar inhabilitado para el ejercicio de cargos público.
+c) Estar inhabilitado para el ejercicio de cargos público.
 
-\d) Haber sido sancionado con exoneración o cesantía en cualquier
+d) Haber sido sancionado con exoneración o cesantía en cualquier
 Institución Universitaria nacional o en la Administración pública
 nacional, provincial o municipal.
 
-\e) Haber incurrido en actos de fuerza contra el orden institucional y
-el sistema democrático, conforme lo previsto en el artículo 36 de la
+e) Haber incurrido en actos de fuerza contra el orden institucional y el
+sistema democrático, conforme lo previsto en el artículo 36 de la
 Constitución Nacional y el Título X del Código Penal, aún cuando se
 hubieren beneficiado por el indulto o la condonación de la pena.
 
 Art. 22º: La relación de empleo del agente con la Institución
 Universitaria concluye por las siguientes causas:
 
-\a) Renuncia aceptada o vencimiento del plazo para la aceptación expresa
+a) Renuncia aceptada o vencimiento del plazo para la aceptación expresa
 por parte de la autoridad competente según la norma aplicable.
 
-\b) Jubilación ordinaria o por invalidez.
+b) Jubilación ordinaria o por invalidez.
 
-\c) Aplicación de sanciones de cesantía o exoneración.
+c) Aplicación de sanciones de cesantía o exoneración.
 
-\d) Retiro voluntario, en los casos que excepcionalmente se establezca.
+d) Retiro voluntario, en los casos que excepcionalmente se establezca.
 
-\e) Fallecimiento.
+e) Fallecimiento.
 
-\f) Por vencimiento del plazo previsto en el inciso b) del artículo
-109º, o ejercicio de la opción otorgada por su inciso c).
+f) Por vencimiento del plazo previsto en el inciso b) del artículo 109º,
+o ejercicio de la opción otorgada por su inciso c).
 
-\g) Conclusión o rescisión del contrato en el caso del personal no
+g) Conclusión o rescisión del contrato en el caso del personal no
 permanente.
 
 Art. 23º: La jubilación o retiro, la intimación a jubilarse y la
 renuncia se regirán por la normativa vigente en la materia.
 
-[[título-4]]
-TÍTULO 4
-~~~~~~~~
+\subsection{TÍTULO 4}\label{tuxedtulo-4}
 
-[[regimen-de-concursos]]
-REGIMEN DE CONCURSOS
-^^^^^^^^^^^^^^^^^^^^
+\hyperdef{}{regimen-de-concursos}{\subsubsection{REGIMEN DE
+CONCURSOS}\label{regimen-de-concursos}}
 
 Art. 24º: El presente título regula las pautas generales de los
 procedimientos de selección de personal no docente para la cobertura de
@@ -613,25 +670,25 @@ tal electo. La inscripción se recibirá durante cinco (5) días hábiles.
 Art. 28º: En los llamados a concurso deberá especificarse como mínimo lo
 siguiente:
 
-\a) Clase de concurso, dependencia y jerarquía del cargo a cubrir.
+a) Clase de concurso, dependencia y jerarquía del cargo a cubrir.
 
-\b) Cantidad de cargos a cubrir, horario previsto, remuneración, y
+b) Cantidad de cargos a cubrir, horario previsto, remuneración, y
 bonificaciones especiales que correspondieren al cargo, si existieran.
 
-\c) Requisitos, condiciones generales y particulares exigibles para
+c) Requisitos, condiciones generales y particulares exigibles para
 cubrir el cargo, con indicación del lugar donde se podrá obtener mayor
 información.
 
-\d) Lugar, fecha de apertura y cierre de inscripción y entrega de los
+d) Lugar, fecha de apertura y cierre de inscripción y entrega de los
 antecedentes.
 
-\e) Lugar, fecha y hora en que se llevará a cabo la prueba de oposición,
+e) Lugar, fecha y hora en que se llevará a cabo la prueba de oposición,
 la que deberá tomarse al menos tres (3) días después del cierre de la
 inscripción.
 
-\f) Temario general.
+f) Temario general.
 
-\g) Nombre de los integrantes del jurado.
+g) Nombre de los integrantes del jurado.
 
 Cada institución universitaria determinará cuáles aspectos deberán ser
 incluidos en la publicidad.
@@ -670,31 +727,30 @@ integrantes del Jurado, y éstos excusarse.
 Art. 33º: Sólo se admitirán recusaciones o excusaciones con expresión de
 alguna de las causas enumeradas a continuación:
 
-\a) El parentesco por consanguinidad dentro del cuarto grado y segundo
-de afinidad o la condición de cónyuge entre un Jurado y algún aspirante.
+a) El parentesco por consanguinidad dentro del cuarto grado y segundo de
+afinidad o la condición de cónyuge entre un Jurado y algún aspirante.
 
-\b) Tener el Jurado, su cónyuge o sus consanguíneos o afines, dentro de
+b) Tener el Jurado, su cónyuge o sus consanguíneos o afines, dentro de
 los grados establecidos en el inciso anterior, sociedad o comunidad de
 intereses con algunos de los aspirantes.
 
-\c) Tener el Jurado causa judicial pendiente con el aspirante.
+c) Tener el Jurado causa judicial pendiente con el aspirante.
 
-\d) Ser el Jurado o aspirante, recíprocamente, acreedor, deudor o
-fiador.
+d) Ser el Jurado o aspirante, recíprocamente, acreedor, deudor o fiador.
 
-\e) Ser o haber sido el jurado autor de denuncias o querellas contra el
+e) Ser o haber sido el jurado autor de denuncias o querellas contra el
 aspirante, o denunciado o querellado por éste ante los Tribunales de
 Justicia o autoridades universitarias, con anterioridad a su designación
 como Jurado.
 
-\f) Haber emitido el Jurado opinión, dictamen o recomendación que pueda
+f) Haber emitido el Jurado opinión, dictamen o recomendación que pueda
 ser considerado como prejuzgamiento acerca del resultado del concurso
 que se tramita.
 
-\g) Tener el Jurado amistad o enemistad con alguno de los aspirantes que
+g) Tener el Jurado amistad o enemistad con alguno de los aspirantes que
 se manifieste por hechos conocidos en el momento de su designación.
 
-\h) Trasgresión por parte del Jurado a la ética universitaria o
+h) Trasgresión por parte del Jurado a la ética universitaria o
 profesional, de acuerdo con lo establecido en el artículo siguiente.
 
 Se aplicará subsidiariamente lo dispuesto respecto de recusaciones y
@@ -741,21 +797,21 @@ Evaluación
 Art. 39º: Principios: Los sistemas de evaluación se sujetarán a los
 siguientes principios:
 
-\a) Objetividad y confiabilidad,
+a) Objetividad y confiabilidad,
 
-\b) Validez de los instrumentos a utilizar,
+b) Validez de los instrumentos a utilizar,
 
-\c) Distribución razonable de las calificaciones en diferentes
-posiciones que permitan distinguir adecuadamente los desempeños
-inferiores, medios y superiores.
+c) Distribución razonable de las calificaciones en diferentes posiciones
+que permitan distinguir adecuadamente los desempeños inferiores, medios
+y superiores.
 
 Art. 40º: Del puntaje máximo posible, los antecedentes no podrán
-importar más del 50%, quedando el resto para la prueba de oposición,
+importar más del 50\%, quedando el resto para la prueba de oposición,
 proporciones que deberán ser establecidas en la resolución que llame a
 concurso, tomando en cuenta las características del cargo a cubrir.
 
 En la evaluación de los antecedentes, la antigüedad podrá valorarse con
-hasta un 20% del total del porcentaje asignado a los antecedentes. Si
+hasta un 20\% del total del porcentaje asignado a los antecedentes. Si
 hubiera habido evaluaciones de desempeño, la merituación de la
 antigüedad estará en función de su resultado, asignándose a la par un
 año con un punto solamente cuando la evaluación de ese año haya sido
@@ -778,9 +834,9 @@ antecedentes efectuadas por los otros aspirantes, el dictamen
 debidamente fundado, indicando el orden de mérito de quienes se
 encuentren en condiciones de ocupar el puesto concursado, y el listado
 de los participantes que no reúnan las condiciones mínimas para ello. Se
-considerará en esta situación el aspirante que no reúna el 50% del total
-de puntos posibles. El orden de mérito no podrá consignar empate en una
-misma posición y grado.
+considerará en esta situación el aspirante que no reúna el 50\% del
+total de puntos posibles. El orden de mérito no podrá consignar empate
+en una misma posición y grado.
 
 Todas las decisiones del jurado, incluido el orden de mérito, se tomarán
 por mayoría simple de los miembros integrantes del Jurado.
@@ -791,11 +847,11 @@ contar desde la fecha del dictamen del Jurado.
 Art. 42º: Recibido el dictamen del Jurado, la autoridad competente
 podrá, dentro de los diez (10) días:
 
-\a) Aprobar el dictamen
+a) Aprobar el dictamen
 
-\b) Pedir ampliación de los fundamentos del dictamen.
+b) Pedir ampliación de los fundamentos del dictamen.
 
-\c) Anular el concurso por defecto de forma o de procedimiento, o por
+c) Anular el concurso por defecto de forma o de procedimiento, o por
 manifiesta arbitrariedad.
 
 En el mismo acto considerará las observaciones a las que se refiere el
@@ -829,13 +885,10 @@ para presentarse a un nuevo concurso en la misma Institución
 universitaria, por el plazo de un año. Será designado en este caso el
 concursante que siga en el orden de méritos.
 
-[[título-5]]
-TÍTULO 5
-~~~~~~~~
+\subsection{TÍTULO 5}\label{tuxedtulo-5}
 
-[[agrupamientos-y-retribuciones]]
-AGRUPAMIENTOS Y RETRIBUCIONES
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{AGRUPAMIENTOS Y
+RETRIBUCIONES}\label{agrupamientos-y-retribuciones}
 
 Agrupamientos
 
@@ -846,43 +899,41 @@ divididos en tramos y un total de siete (7) categorías.
 El alcance y contenido de lo precedentemente detallado será de acuerdo a
 las siguientes definiciones:
 
-\1) Agrupamientos: Es el conjunto de categorías, divididas en tramos,
+1) Agrupamientos: Es el conjunto de categorías, divididas en tramos,
 abarcativos de funciones programadas para el logro de un objetivo común,
 dentro del cual se desarrolla una carrera administrativa. Los
 agrupamientos son:
 
-\a) Administrativo
+a) Administrativo
 
-\b) Mantenimiento, producción y servicios generales
+b) Mantenimiento, producción y servicios generales
 
-\c) Técnico-profesional
+c) Técnico-profesional
 
-\d) Asistencial
+d) Asistencial
 
-\2) Tramos: Son las partes en que está dividido cada agrupamiento, de
+2) Tramos: Son las partes en que está dividido cada agrupamiento, de
 acuerdo a la jerarquía de las funciones cumplidas. Los tramos serán
 mayor, intermedio e inicial, con la especificación de funciones que en
 cada agrupamiento se establece, y podrá incluir cada uno las categorías
 que se indican a continuación:
 
-\a) Tramo Mayor: categorías 1, 2 y 3
+a) Tramo Mayor: categorías 1, 2 y 3
 
-\b) Tramo Intermedio: categorías 4 y 5
+b) Tramo Intermedio: categorías 4 y 5
 
-\c) Tramo Inicial: categorías 6 y 7
+c) Tramo Inicial: categorías 6 y 7
 
-\3) Categorías: Es cada uno de los niveles jerárquicos de cada
+3) Categorías: Es cada uno de los niveles jerárquicos de cada
 agrupamiento. A cada categoría le corresponden funciones especificas.
 
-\4) Cargo: Es la posición concreta del agente en la planta no docente de
+4) Cargo: Es la posición concreta del agente en la planta no docente de
 la Institución Universitaria, que importa un conjunto de funciones,
 atribuciones y responsabilidades, conforme a lo previsto en las
 respectivas estructuras orgánico funcionales y que corresponde a cada
 trabajador según su categoría de revista.
 
-[[agrupamientos]]
-Agrupamientos
-+++++++++++++
+\paragraph{Agrupamientos}\label{agrupamientos}
 
 Art. 48º: Agrupamiento Administrativo: Este agrupamiento incluirá al
 personal que desempeñe funciones de dirección, coordinación,
@@ -894,19 +945,19 @@ Comprenderá tres (3) tramos, de acuerdo con la naturaleza de las
 funciones que para cada uno de ellos se establece, con un total de siete
 (7) categorías:
 
-\a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
+a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
 dirección, coordinación, planeamiento, organización o asesoramiento,
 destinadas a contribuir en la formulación de políticas y planes de
 conducción y en la preparación y control de programas y proyectos
 destinados a concretar aquéllas. Estará constituido por las categorías
 1, 2 y 3.
 
-\b) Tramo Intermedio: incluirá a los trabajadores que desarrollen
+b) Tramo Intermedio: incluirá a los trabajadores que desarrollen
 funciones de colaboración y apoyo al personal del tramo mayor, así como
 la supervisión directa de tareas propias del personal del tramo inicial.
 Estará constituido por las categorías 4 y 5.
 
-\c) Tramo Inicial: incluirá a los trabajadores que desarrollen tareas de
+c) Tramo Inicial: incluirá a los trabajadores que desarrollen tareas de
 carácter operativo, auxiliar o elemental, estará constituido por las
 categorías 6 y 7.
 
@@ -921,17 +972,17 @@ Comprenderá tres (3) tramos de acuerdo con la naturaleza de las
 funciones que para cada uno de ellos se establece, con un total de seis
 (6) categorías:
 
-\a) Tramo Mayor: incluirá a los trabajadores que administren, programen
-y controlen actividades sectoriales. Se integrará con las categorías 2 y
+a) Tramo Mayor: incluirá a los trabajadores que administren, programen y
+controlen actividades sectoriales. Se integrará con las categorías 2 y
 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que ejerzan funciones
+b) Tramo Intermedio: Incluirá a los trabajadores que ejerzan funciones
 de colaboración y apoyo al personal del tramo mayor y de supervisión y
 control de las tareas encomendadas al personal del tramo inicial; o
 realicen funciones específicas o especializadas. Se integrará con las
 categorías 4 y 5.
 
-\c) Tramo Inicial: Incluirá a los trabajadores que desarrollen tareas de
+c) Tramo Inicial: Incluirá a los trabajadores que desarrollen tareas de
 carácter operativo, auxiliar o elemental. Se integrará con las
 categorías 6 y 7.
 
@@ -947,12 +998,12 @@ Comprenderá dos (2) tramos, de acuerdo a la naturaleza de las funciones
 que para cada uno de ellos se establezcan con un total de cinco (5)
 categorías:
 
-\a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
+a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
 programación profesional, jefatura, administración, control del área de
 su competencia, ejecución de tareas de nivel superior. Estará
 constituido por las categorías 1, 2 y 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
+b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
 funciones de colaboración y apoyo profesional especializadas, así como
 la supervisión directa de tareas específicas del tramo inicial. Estará
 constituido por las categorías 4 y 5.
@@ -968,17 +1019,17 @@ Comprenderá tres (3) tramos, de acuerdo a la naturaleza de las funciones
 que para cada uno de ellos se establezcan con un total de seis (6)
 categorías:
 
-\a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
+a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
 programación técnica, jefatura, administración, control técnico del área
 de su competencia, ejecución de tareas de nivel superior. Estará
 constituido por las categorías 2 y 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
+b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
 funciones de colaboración y apoyo técnico especializadas, así como la
 supervisión directas de tareas específicas del tramo inicial. Estará
 constituido por las categorías 4 y 5.
 
-\c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas de
+c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas de
 carácter técnico operativo, conforme a la capacitación y experiencia
 adquiridas en su especialidad. Estará constituido por las categorías 6 y
 7.
@@ -1003,17 +1054,17 @@ Comprenderá tres (3) tramos, de acuerdo a la naturaleza de las funciones
 que para cada uno de ellos se establezcan con un total de cinco (5)
 categorías:
 
-\a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
+a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
 programación técnicas y/o profesionales, jefatura, administración,
 control técnico del área de su competencia, y ejecución de tareas de
 nivel superior. Estará constituido por las categorías 2 y 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
+b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
 funciones de colaboración y apoyo técnico y/o profesional
 especializadas, así como la supervisión directa de tareas específicas
 del tramo básico. Estará constituido por las categorías 4 y 5.
 
-\c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas de
+c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas de
 carácter técnico y/o profesional, conforme a la capacitación y
 experiencia adquiridas en su especialidad. Estará constituido por la
 categoría 6.
@@ -1024,17 +1075,17 @@ ejecución o auxiliar. Comprenderá tres (3) tramos, de acuerdo a la
 naturaleza de las funciones que para cada uno de ellos se establezcan
 con un total de seis (6) categorías:
 
-\a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
+a) Tramo Mayor: Incluirá a los trabajadores que realicen funciones de
 dirección, programación, jefatura, administración, control del área de
 su competencia. Ejecución de tareas de nivel superior. Estará
 constituido por las categorías 2 y 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
+b) Tramo Intermedio: Incluirá a los trabajadores que desempeñen
 funciones de colaboración y tareas especializadas, así como la
 supervisión directa de tareas específicas del tramo básico. Estará
 constituido por las categorías 4 y 5.
 
-\c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas
+c) Tramo Inicial: Incluirá a los trabajadores que ejecuten tareas
 conforme a la capacitación y experiencia adquiridas en su especialidad.
 Estará constituido por las categorías 6 y 7.
 
@@ -1047,19 +1098,19 @@ Comprenderá tres (3) tramos, de acuerdo con la naturaleza de las
 funciones que para cada uno de ellos se establece, con un total de siete
 (7) categorías:
 
-\a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
+a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
 Dirección, Coordinación, Planeamiento, Organización, Control o
 Asesoramiento, destinadas a contribuir en la formulación de políticas y
 planes de conducción y en la preparación, ejecución y control de
 programas y proyectos destinados a concretar aquellas. Estará
 constituido por las categorías 1, 2 y 3.
 
-\b) Tramo Intermedio: incluirá a los trabajadores que desarrollen
+b) Tramo Intermedio: incluirá a los trabajadores que desarrollen
 funciones de colaboración y apoyo al personal de Dirección, así como la
 supervisión directa de tareas propias del personal de ejecución. Estará
 constituido por las categorías 4 y 5.
 
-\c) Tramo Inicial: incluirá a los trabajadores que desarrollen tareas de
+c) Tramo Inicial: incluirá a los trabajadores que desarrollen tareas de
 carácter operativo, auxiliar o elemental, estará constituido por las
 categorías 6 y 7.
 
@@ -1073,25 +1124,23 @@ Comprenderá tres (3) tramos de acuerdo con la naturaleza de las
 funciones que para cada uno de ellos se establece, con un total de cinco
 (5) categorías:
 
-\a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
+a) Tramo Mayor: incluirá a los trabajadores que cumplan tareas de
 Dirección, Coordinación, Planeamiento, Organización, Control o
 Asesoramiento, destinadas a contribuir en la formulación de políticas y
 planes de conducción y en la preparación, ejecución y control de
 programas y proyectos destinados a concretar aquéllas. Estará
 constituido por la categoría 3.
 
-\b) Tramo Intermedio: Incluirá a los trabajadores que ejerzan funciones
+b) Tramo Intermedio: Incluirá a los trabajadores que ejerzan funciones
 de supervisión y control de las tareas encomendadas al personal del
 tramo básico y la realización de funciones específicas o especializadas.
 Se integrará con las categorías 4 y 5.
 
-\c) Tramo Inicial: Incluirá a los trabajadores que desarrollen tareas de
+c) Tramo Inicial: Incluirá a los trabajadores que desarrollen tareas de
 carácter operativo, en relación de dependencia con las jerarquías del
 tramo medio se integrará con las categorías 6 y 7.
 
-[[retribuciones]]
-Retribuciones
-+++++++++++++
+\hyperdef{}{retribuciones}{\paragraph{Retribuciones}\label{retribuciones}}
 
 Art. 52º: La retribución del trabajador no docente se compone del sueldo
 básico correspondiente a su categoría; los adicionales particulares y
@@ -1104,35 +1153,48 @@ expresados, teniendo en cuenta los coeficientes que a continuación se
 detallan, y cuyo monto testigo es el coeficiente 1.00 = a la categoría
 7.
 
-[width="56%",cols="35%,31%,34%",]
-|====================================================
-|CATEGORIAS |BASICOS |TRAMOS
-|7 6 5 4 3 2 1 |1.00 1.20 1.44 1.73 2.08 2.50 3.00 a|
+\begin{longtable}[c]{@{}lll@{}}
+\toprule
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+CATEGORIAS
+\strut\end{minipage} &
+\begin{minipage}[t]{0.16\columnwidth}\raggedright\strut
+BASICOS
+\strut\end{minipage} &
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+TRAMOS
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+7 6 5 4 3 2 1
+\strut\end{minipage} &
+\begin{minipage}[t]{0.16\columnwidth}\raggedright\strut
+1.00 1.20 1.44 1.73 2.08 2.50 3.00
+\strut\end{minipage} &
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
 INICIAL
 
 INTERMEDIO
 
 MAYOR
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
-|====================================================
-
-[[adicionales]]
-Adicionales
-+++++++++++
+\paragraph{Adicionales}\label{adicionales}
 
 Art. 54º: Establécense los siguientes adicionales:
 
-\a) Por antigüedad.
+a) Por antigüedad.
 
-\b) Por título.
+b) Por título.
 
-\c) Por permanencia en la categoría.
+c) Por permanencia en la categoría.
 
-\d) Por tarea asistencial.
+d) Por tarea asistencial.
 
 Art. 55º. Adicional por antigüedad: A partir del 1º de enero de cada
 año, el trabajador comprendido en este Convenio percibirá en concepto de
-``adicional por antigüedad'' la suma equivalente al UNO POR CIENTO (1%)
+``adicional por antigüedad'' la suma equivalente al UNO POR CIENTO (1\%)
 de la asignación de la categoría de revista por cada año de servicio o
 fracción mayor de SEIS (6) meses que registre al 31 de diciembre
 inmediato anterior.
@@ -1142,47 +1204,47 @@ sobre la base de los servicios no simultáneos, prestados en forma
 ininterrumpida o alternada en organismos nacionales, provinciales o
 municipales, inclusive los siguientes:
 
-\1) Los prestados en calidad de contratado, siempre que se cumplan los
+1) Los prestados en calidad de contratado, siempre que se cumplan los
 requisitos que a continuación se especifican:
 
-\a) Que sean servicios prestados en relación de dependencia.
+a) Que sean servicios prestados en relación de dependencia.
 
-\b) Que estuvieren sujetos a un determinado horario, susceptible de un
+b) Que estuvieren sujetos a un determinado horario, susceptible de un
 adecuado contralor.
 
-\2) Los prestados con carácter ad-honorem, siempre que los mismos sean
+2) Los prestados con carácter ad-honorem, siempre que los mismos sean
 fehacientemente comprobados.
 
-\3) Los prestados en entidades privadas que hubieren sido incorporadas a
+3) Los prestados en entidades privadas que hubieren sido incorporadas a
 la Nación, Provincia o Municipio, sólo en el caso en que a la fecha de
 producirse esa incorporación el agente estuviese prestando efectivamente
 servicios en ellas.
 
-\4) Los prestados en las Fuerzas Armadas o de Seguridad.
+4) Los prestados en las Fuerzas Armadas o de Seguridad.
 
 Art. 57º: No se computarán a los efectos del adicional por antigüedad:
 
-\1) Los servicios que hubieran originado jubilación, retiro o pensión
+1) Los servicios que hubieran originado jubilación, retiro o pensión
 cuando el trabajador perciba la correspondiente prestación de pasividad
 en forma total o parcial.
 
-\2) Los lapsos correspondientes a suspensiones o licencias sin goce de
+2) Los lapsos correspondientes a suspensiones o licencias sin goce de
 sueldo, superiores a Treinta (30) días continuos o discontinuos.
 
 Art. 58º: Cuando el trabajador no docente desempeñare más de un empleo
 en organismos comprendidos en este Convenio, el cómputo se hará mediante
 el siguiente procedimiento:
 
-\a) En los distintos empleos se computarán exclusivamente los años de
+a) En los distintos empleos se computarán exclusivamente los años de
 servicio cumplidos en cada uno de ellos.
 
-\b) La antigüedad restante que el trabajador no docente tuviere
+b) La antigüedad restante que el trabajador no docente tuviere
 acreditada por otras prestaciones, se considerará en el empleo donde
 éste tenga mayor antigüedad,
 
-\c) Cuando el trabajador cesare en uno de sus empleos, podrá trasladar
-al más antiguo de los que mantuviere las prestaciones acreditadas en el
-que deja vacante, siempre que no se tratare de servicios simultáneos.
+c) Cuando el trabajador cesare en uno de sus empleos, podrá trasladar al
+más antiguo de los que mantuviere las prestaciones acreditadas en el que
+deja vacante, siempre que no se tratare de servicios simultáneos.
 
 Art. 59º: Cuando el trabajador desempeñare más de un empleo y alguno de
 ellos fuere cumplido en organismos excluidos de este Escalafón que
@@ -1201,23 +1263,23 @@ Art. 60º. Adicional por título: El trabajador no docente de las UUNN,
 percibirá el adicional por título de conformidad con las siguientes
 normas:
 
-\a) Títulos universitarios de carreras de posgrado, el treinta por
-ciento (30%) de la asignación de la categoría de revista.
+a) Títulos universitarios de carreras de posgrado, el treinta por ciento
+(30\%) de la asignación de la categoría de revista.
 
-\b) Títulos universitarios de carreras de grado, veinticinco por ciento
-(25%) de la asignación de la categoría de revista.
+b) Títulos universitarios de carreras de grado, veinticinco por ciento
+(25\%) de la asignación de la categoría de revista.
 
-\c) Tecnicatura en Gestión Universitaria, veinte por ciento (20%) de la
+c) Tecnicatura en Gestión Universitaria, veinte por ciento (20\%) de la
 asignación de la categoría de revista.
 
-\d) Títulos universitarios de pregrado o de estudios superiores, que
+d) Títulos universitarios de pregrado o de estudios superiores, que
 demanden de uno (1) a tres (3) años de estudio de tercer nivel: diez por
-ciento (10%) de la asignación de la categoría de revista.
+ciento (10\%) de la asignación de la categoría de revista.
 
-\e) Títulos secundarios en sus distintas especialidades y del polimodal
-y los similares expedidos por la Dirección Nacional de Educación del
-adulto: diecisiete con cincuenta por ciento (17,50%) de la asignación de
-la categoría 7.
+e) Títulos secundarios en sus distintas especialidades y del polimodal y
+los similares expedidos por la Dirección Nacional de Educación del
+adulto: diecisiete con cincuenta por ciento (17,50\%) de la asignación
+de la categoría 7.
 
 Art. 61º: Los títulos universitarios de estudios superiores que
 acrediten una misma incumbencia profesional se bonificarán en igual
@@ -1243,16 +1305,19 @@ adicional mayor.
 Art. 64º. Adicional por permanencia en la categoría: Todos los
 trabajadores comprendidos en el presente Convenio percibirán un
 adicional a partir de los dos (2) años de permanencia en la categoría,
-de hasta un máximo del setenta por ciento (70%) de la diferencia entre
+de hasta un máximo del setenta por ciento (70\%) de la diferencia entre
 la asignación básica de la categoría de revista y la de la inmediata
 superior, de acuerdo con el siguiente detalle:
 
-[width="100%",cols="50%,50%",]
-|=======================================================================
-|Años de permanencia en la categoría |% de la diferencia con la
-categoría inmediata superior
-
-a|
+\begin{longtable}[c]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+Años de permanencia en la categoría
+\strut\end{minipage} &
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
+\% de la diferencia con la categoría inmediata superior
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
 2
 
 4
@@ -1260,8 +1325,8 @@ a|
 6
 
 8
-
- a|
+\strut\end{minipage} &
+\begin{minipage}[t]{0.47\columnwidth}\raggedright\strut
 10
 
 25
@@ -1269,35 +1334,36 @@ a|
 45
 
 70
-
-|=======================================================================
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
 
 Este adicional dejará de percibirse cuando el trabajador sea promovido.
 
 Art. 65º: Para el trabajador que reviste en la categoría máxima el
-adicional se calculará sobre el treinta y siete por ciento (37%) de la
+adicional se calculará sobre el treinta y siete por ciento (37\%) de la
 asignación de la categoría.
 
 Art. 66º. Adicional por tarea asistencial: El personal perteneciente al
 agrupamiento asistencial percibirá un adicional especial equivalente al
-doce por ciento (12%) de la asignación de la categoría de revista.
+doce por ciento (12\%) de la asignación de la categoría de revista.
 
 Art. 67º. Adicional por dedicación exclusiva asistencial: Aquellos
 agentes del agrupamiento asistencial que cumplan con los requisitos que
 se detallan en el presente artículo, percibirán un adicional especial no
 bonificable por dedicación exclusiva, equivalente al veinticinco por
-ciento (25%) de la remuneración básica correspondiente a su categoría de
-revista.
+ciento (25\%) de la remuneración básica correspondiente a su categoría
+de revista.
 
 Los requisitos que deberán reunir son:
 
-\a) Cumplir no menos de cuarenta (40) horas semanales de labor.
+a) Cumplir no menos de cuarenta (40) horas semanales de labor.
 
-\b) Haber optado expresamente por el régimen de dedicación exclusiva,
+b) Haber optado expresamente por el régimen de dedicación exclusiva,
 presentando declaración jurada en la que conste la inexistencia de otra
 relación de empleo.
 
-\c) Acreditar capacitación específica mediante título habilitante o
+c) Acreditar capacitación específica mediante título habilitante o
 certificado otorgado por autoridad competente.
 
 Este adicional absorbe al adicional por tarea asistencial.
@@ -1306,13 +1372,13 @@ Suplementos
 
 Art. 68º: Establécense los siguientes suplementos:
 
-\a) Por zona desfavorable.
+a) Por zona desfavorable.
 
-\b) Por falla de caja.
+b) Por falla de caja.
 
-\c) Por riesgo.
+c) Por riesgo.
 
-\d) Por mayor responsabilidad.
+d) Por mayor responsabilidad.
 
 Art. 69º. Suplemento por zona desfavorable: El personal comprendido en
 el presente Convenio Colectivo de Trabajo percibirá el suplemento por
@@ -1324,7 +1390,7 @@ los trabajadores no docentes que se desempeñen con carácter regular y
 permanente en tareas inherentes al manejo de fondos en efectivo
 (pagadores, tesoreros, cajeros o funcionarios similares) o realicen
 tareas de recaudación y pago, y consistirá en la suma mensual
-equivalente al veinticinco por ciento (25%) de la asignación de la
+equivalente al veinticinco por ciento (25\%) de la asignación de la
 categoría 7.
 
 Art. 71º. Suplemento por riesgo: Este suplemento se liquidará a los
@@ -1336,7 +1402,7 @@ Las funciones que se consideren incluidas en la percepción de este
 suplemento, así como el respectivo importe, deberán establecerse en cada
 caso, conforme lo dispuesto por el área de seguridad y riesgos laborales
 de la universidad o, supletoriamente, por el ministerio de trabajo de la
-nación, y en ningún caso podrá superar el diez por ciento (10%) del
+nación, y en ningún caso podrá superar el diez por ciento (10\%) del
 total de la asignación de la categoría de revista.
 
 Art. 72º. Suplemento por mayor responsabilidad: Este suplemento se
@@ -1353,9 +1419,7 @@ mayor responsabilidad. En ningún caso podrá utilizarse este suplemento
 para disponer pagos diferenciados donde no existan las circunstancias
 antes anotadas.
 
-[[tipificador-de-funciones]]
-Tipificador de funciones
-++++++++++++++++++++++++
+\paragraph{Tipificador de funciones}\label{tipificador-de-funciones}
 
 Art. 73: La Comisión Negociadora de Nivel General elaborará un
 tipificador de funciones que se integrará como anexo del convenio
@@ -1374,23 +1438,18 @@ retroactividad a la fecha de aquel encasillamiento. Cualquier
 interpretación o aclaración complementaria referida al presente convenio
 colectivo serán resuelta por la comisión creada al efecto.
 
-[[título-6]]
-TÍTULO 6
-~~~~~~~~
+\subsection{TÍTULO 6}\label{tuxedtulo-6}
 
-[[tiempo-de-trabajo]]
-TIEMPO DE TRABAJO
-^^^^^^^^^^^^^^^^^
+\hyperdef{}{tiempo-de-trabajo}{\subsubsection{TIEMPO DE
+TRABAJO}\label{tiempo-de-trabajo}}
 
-[[jornada-de-trabajo]]
-Jornada de trabajo
-++++++++++++++++++
+\paragraph{Jornada de trabajo}\label{jornada-de-trabajo}
 
 Art. 74º: Se establece la jornada de trabajo convencional de 35 horas
 semanales, siete diarias continuas corridas, de lunes a viernes. El
 exceso de la jornada habitual de que se trate será considerado como hora
-extra convencional con el recargo del 50% en los días hábiles, y del
-100% en días inhábiles. En ningún caso la jornada podrá extenderse más
+extra convencional con el recargo del 50\% en los días hábiles, y del
+100\% en días inhábiles. En ningún caso la jornada podrá extenderse más
 de 10 horas. Si hubiera un acuerdo entre el empleador y el trabajador,
 se podrán compensar las horas extra trabajadas con una reducción horaria
 equivalente, la que deberá operarse durante el mismo mes calendario, o
@@ -1408,7 +1467,7 @@ ser otorgada, la retribución se reducirá en igual proporción, tomando
 como base las remuneraciones y adicionales considerados regulares y
 permanentes.
 
-Art. 76º: Serán liquidadas con un recargo del 25% las horas que
+Art. 76º: Serán liquidadas con un recargo del 25\% las horas que
 correspondan a la extensión horaria que se acuerde entre las partes para
 proporcionar capacitación direccionada al trabajador, cuando razones de
 servicio aconsejen que se haga fuera de los horarios habituales. Podrán
@@ -1517,9 +1576,7 @@ de acuerdo a lo establecido en el art. 59º. Igual procedimiento se
 llevará a cabo a favor de sus derecho-habientes, los que percibirán el
 monto correspondiente.
 
-[[licencias-por-enfermedad]]
-Licencias por enfermedad
-++++++++++++++++++++++++
+\paragraph{Licencias por enfermedad}\label{licencias-por-enfermedad}
 
 Art. 91º: Al trabajador que deba atenderse afecciones o lesiones de
 corto tratamiento, que inhabiliten para el desempeño del trabajo,
@@ -1535,12 +1592,12 @@ hubiera transcurrido menos de media jornada de labor, y permiso personal
 o excepcional, cuando hubiere trabajado más de media jornada.
 
 Art. 93º: El trabajador tendrá derecho a una licencia extraordinaria de
-hasta un año, con percepción del 100% de sus haberes por afecciones o
+hasta un año, con percepción del 100\% de sus haberes por afecciones o
 Iesiones de largo tratamiento que lo inhabiliten para el desempeño del
 trabajo. Vencido ese plazo, subsistiendo la causal que determinó la
 licencia y en forma excepcional, se ampliará este plazo por hasta dos
-(2) nuevos períodos de seis meses con percepción del 100% de haberes,
-hasta dos períodos de seis meses más con percepción del 50% de los
+(2) nuevos períodos de seis meses con percepción del 100\% de haberes,
+hasta dos períodos de seis meses más con percepción del 50\% de los
 haberes, y otros dos de igual duración sin goce de haberes. Para ello
 será necesaria la certificación de la autoridad sanitaria establecida
 para estos casos, que comprenda el estado de afección o lesión, la
@@ -1549,7 +1606,7 @@ el trabajo.
 
 Art. 94º: En caso que el estado de salud del agente lo constituya con
 derecho a una jubilación por incapacidad, se iniciarán los trámites de
-inmediato, y se le abonará el 95% del estimado de haber jubilatorio,
+inmediato, y se le abonará el 95\% del estimado de haber jubilatorio,
 hasta que se le otorgue. El importe se liquidará con carácter de
 anticipo. El cumplimiento de lo aquí dispuesto quedará supeditado a la
 existencia de un convenio con el ANSES que garantice la devolución.
@@ -1573,36 +1630,35 @@ recomendaciones efectuadas, debiendo abonar la retribución total por un
 lapso que no podrá extenderse por más de un año. Vencido ese lapso, se
 aplicarán las disposiciones relativas a la jubilación por invalidez.
 
-[[licencias-extraordinarias-y-justificaciones]]
-Licencias extraordinarias y justificaciones
-+++++++++++++++++++++++++++++++++++++++++++
+\paragraph{Licencias extraordinarias y
+justificaciones}\label{licencias-extraordinarias-y-justificaciones}
 
 Art. 97º: El trabajador gozará de las siguientes licencias especiales:
 
-\a) En caso de trabajador varón, por nacimiento u otorgamiento de la
+a) En caso de trabajador varón, por nacimiento u otorgamiento de la
 guarda para adopción de hijos, tres días hábiles,
 
-\b) Por matrimonio, 10 días hábiles.
+b) Por matrimonio, 10 días hábiles.
 
-\c) Por matrimonio de un hijo, 2 días.
+c) Por matrimonio de un hijo, 2 días.
 
-\d) Por fallecimiento del cónyuge o pariente en primer grado de
+d) Por fallecimiento del cónyuge o pariente en primer grado de
 consanguinidad, 10 días. Si el deceso que justificase esta licencia
 fuera del cónyuge y el trabajador supérstite tuviera hijos menores de
 edad, la licencia se extenderá por 15 días más.
 
-\e) Por fallecimiento de pariente en segundo grado de consanguinidad, 5
+e) Por fallecimiento de pariente en segundo grado de consanguinidad, 5
 días.
 
-\f) Por fallecimiento de pariente político en 1º y 2º grado, un (1) día,
+f) Por fallecimiento de pariente político en 1º y 2º grado, un (1) día,
 el que coincidirá con el del deceso o el del sepelio.
 
-\g) Donación de sangre, un (1) día, el de la extracción.
+g) Donación de sangre, un (1) día, el de la extracción.
 
-\h) Para rendir examen por enseñanza media, 20 días hábiles por año
+h) Para rendir examen por enseñanza media, 20 días hábiles por año
 calendario con un máximo de 4 días por examen,
 
-\i) Para rendir examen por enseñanza superior, 24 días hábiles por año
+i) Para rendir examen por enseñanza superior, 24 días hábiles por año
 calendario con un máximo de 5 días por examen.
 
 Las inasistencias producidas por razones de fuerza mayor, fenómenos
@@ -1750,14 +1806,14 @@ trabajadora con más de un año de antigüedad en la Institución
 Universitaria que tuviera un hijo, luego de gozar de la licencia por
 maternidad, podrá optar entre las siguientes alternativas:
 
-\a) Continuar con su trabajo en la Institución Universitaria en las
+a) Continuar con su trabajo en la Institución Universitaria en las
 mismas condiciones en que lo venía haciendo.
 
-\b) Quedar en situación de excedencia sin goce de sueldo por un período
+b) Quedar en situación de excedencia sin goce de sueldo por un período
 de hasta seis meses.
 
-\c) Solicitar la resolución de la relación de empleo, con derecho a
-percibir una compensación equivalente al 50% del mejor salario de los
+c) Solicitar la resolución de la relación de empleo, con derecho a
+percibir una compensación equivalente al 50\% del mejor salario de los
 últimos 10 años por cada año de antigüedad en la Institución
 Universitaria.
 
@@ -1786,13 +1842,10 @@ Art. 113º: El uso de las licencias disponibles reguladas en los
 artículos 100º, 101º y 102º será considerado en la evaluación anual del
 agente.
 
-[[título-7]]
-TÍTULO 7
-~~~~~~~~
+\subsection{TÍTULO 7}\label{tuxedtulo-7}
 
-[[salud-e-higiene]]
-SALUD E HIGIENE
-^^^^^^^^^^^^^^^
+\hyperdef{}{salud-e-higiene}{\subsubsection{SALUD E
+HIGIENE}\label{salud-e-higiene}}
 
 Art. 114º: Las Instituciones Universitarias nacionales deben hacer
 observar las pautas y limitaciones al trabajo establecido en leyes,
@@ -1805,65 +1858,64 @@ derivados de ambientes insalubres o ruidosos.
 
 A esos efectos llevarán a cabo las siguientes tareas:
 
-\a) crearán servicios de seguridad e higiene de trabajo de carácter
+a) crearán servicios de seguridad e higiene de trabajo de carácter
 preventivo y correctivo acorde a las especificaciones dadas en el marco
 de las leyes vigentes con la participación gremial correspondiente.
 
-\b) mantendrán en un buen estado de conservación, utilización y
+b) mantendrán en un buen estado de conservación, utilización y
 mantenimiento de los equipos, instalaciones, oficinas y todos los útiles
 y herramientas de trabajo.
 
-\c) mantendrán en un buen estado de utilización y funcionamiento las
+c) mantendrán en un buen estado de utilización y funcionamiento las
 instalaciones eléctricas, sanitarias y de agua potable.
 
-\d) evitarán la acumulación de desechos, residuos y elementos que
+d) evitarán la acumulación de desechos, residuos y elementos que
 constituyan riesgos para la salud o puedan producir accidentes,
 efectuando en forma periódica la limpieza y las desinfecciones
 pertinentes.
 
-\e) adoptarán medidas para eliminar y/o aislar los ruidos y/o las
+e) adoptarán medidas para eliminar y/o aislar los ruidos y/o las
 vibraciones perjudiciales para la salud de los trabajadores, brindando
 elementos de protección adecuados si aquello resulta técnica y
 económicamente viable.
 
-\f) instalarán equipos para afrontar los riesgos en casos de incendio y
+f) instalarán equipos para afrontar los riesgos en casos de incendio y
 los demás siniestros que pudieran ocurrir.
 
-\g) deberán promover la capacitación del personal en materia de higiene
-y seguridad de trabajo, particularmente en lo referido a la prevención
-de los riesgos específicos de las tareas asignadas.
+g) deberán promover la capacitación del personal en materia de higiene y
+seguridad de trabajo, particularmente en lo referido a la prevención de
+los riesgos específicos de las tareas asignadas.
 
-\h) adoptarán medidas de resguardo y seguridad frente al efecto de las
+h) adoptarán medidas de resguardo y seguridad frente al efecto de las
 sustancias peligrosas que se encuentren en el ámbito de la institución
 universitaria.
 
-\i) desarrollarán un plan de evacuación y roles en caso de emergencia
+i) desarrollarán un plan de evacuación y roles en caso de emergencia
 (incendio y otros).
 
 Art. 115º: El personal queda comprometido a:
 
-\a) cumplir las normas de seguridad e higiene referentes a las
+a) cumplir las normas de seguridad e higiene referentes a las
 obligaciones de uso, conservación y cuidado de equipos de protección
 personal y de los propios de las maquinarias, operaciones y procesos de
 trabajo.
 
-\b) conocer y cumplir debidamente las normas de seguridad de la
+b) conocer y cumplir debidamente las normas de seguridad de la
 Institución Universitaria, con un criterio de colaboración y seguridad
 por ambas partes.
 
-\c) someterse a los exámenes médicos preventivos y periódicos que
-indique la Institución Universitaria. Esta invitará a la entidad gremial
-para que disponga la presencia de sus facultativos, si lo estima
-conveniente.
+c) someterse a los exámenes médicos preventivos y periódicos que indique
+la Institución Universitaria. Esta invitará a la entidad gremial para
+que disponga la presencia de sus facultativos, si lo estima conveniente.
 
-\d) cuidar la conservación de los carteles y avisos que señalan medidas
+d) cuidar la conservación de los carteles y avisos que señalan medidas
 de seguridad e higiene, y observar sus prescripciones.
 
-\e) colaborar en la elaboración del Programa de formación y educación en
+e) colaborar en la elaboración del Programa de formación y educación en
 materia de higiene y seguridad, y asistir a los cursos que se dicten
 durante la jornada de trabajo.
 
-\f) denunciar, conforme las normas legales vigentes, los accidentes o
+f) denunciar, conforme las normas legales vigentes, los accidentes o
 enfermedades laborales.
 
 Art. 116º: Se constituye la Comisión de ``Condiciones y Medio Ambiente
@@ -1877,15 +1929,15 @@ agentes.
 
 Art. 117º: La CCyMAT tendrá por funciones:
 
-\a) confeccionar un manual de instrucciones preventivas para todo el
+a) confeccionar un manual de instrucciones preventivas para todo el
 personal dependiente que tienda a evitar enfermedades profesionales y
 los accidentes de trabajo.
 
-\b) fiscalizar el cumplimiento de lo dispuesto en el presente título, en
+b) fiscalizar el cumplimiento de lo dispuesto en el presente título, en
 todas las Instituciones Universitarias nacionales, elevando dictámenes
 trimestrales a la Comisión negociadora de nivel general.
 
-\c) establecer las medidas necesarias para subsanar o atenuar la
+c) establecer las medidas necesarias para subsanar o atenuar la
 situación planteada por la tarea insalubre o riesgosa. Para ello contará
 con los informes producidos por la Aseguradora de Riesgo de Trabajo o
 las comisiones de salubridad e higiene que pudieran haberse constituido
@@ -1898,13 +1950,9 @@ en que sea ineludible la exposición perjudicial. Esta última será la que
 determine la Superintendencia de Riesgos del Trabajo o la entidad que en
 el futuro la reemplace.
 
-[[título-8]]
-TÍTULO 8
-~~~~~~~~
+\subsection{TÍTULO 8}\label{tuxedtulo-8}
 
-[[capacitacion]]
-CAPACITACION
-^^^^^^^^^^^^
+\hyperdef{}{capacitacion}{\subsubsection{CAPACITACION}\label{capacitacion}}
 
 Art. 119º: Las Instituciones Universitarias nacionales deberán ofrecer a
 sus trabajadores cursos de capacitación permanente, que posibiliten su
@@ -1915,29 +1963,29 @@ administrativa.
 
 Art. 120º: Tendrá por objetivos generales:
 
-\a) proporcionar competencias específicas para afrontar los nuevos
+a) proporcionar competencias específicas para afrontar los nuevos
 desafíos laborales;
 
-\b) potenciar habilidades, conocimientos y experiencia;
+b) potenciar habilidades, conocimientos y experiencia;
 
-\c) reducir los requerimientos de supervisión y otorgar mayor autonomía
+c) reducir los requerimientos de supervisión y otorgar mayor autonomía
 decisional;
 
-\d) mejorar las oportunidades de promoción y progreso, propendiendo al
+d) mejorar las oportunidades de promoción y progreso, propendiendo al
 desarrollo pleno de su carrera dentro de la institución;
 
-\e) proporcionar mayor seguridad, satisfacción en el trabajo y
+e) proporcionar mayor seguridad, satisfacción en el trabajo y
 realización personal.
 
 Estará orientada a:
 
-\1. elevar los niveles de productividad, con un mejor uso de los
-recursos disponibles;
+1. elevar los niveles de productividad, con un mejor uso de los recursos
+disponibles;
 
-\2. mejorar la gestión para poder asumir las rápidas transformaciones
+2. mejorar la gestión para poder asumir las rápidas transformaciones
 características de nuestro tiempo;
 
-\3. generar las condiciones para que cada uno de los miembros de la
+3. generar las condiciones para que cada uno de los miembros de la
 organización contribuyan con sus capacidades y desempeños a un mejor
 logro de los objetivos institucionales.
 
@@ -1979,16 +2027,16 @@ acordado por las partes.
 Art. 129º: Créase la Comisión Asesora de Capacitación, que tendrá las
 siguientes funciones:
 
-\a) Asesorar en la formulación de políticas y programas de capacitación,
+a) Asesorar en la formulación de políticas y programas de capacitación,
 convergentes con los criterios generales, realizando observaciones o
 sugerencias.
 
-\b) Coordinar las actividades de las Instituciones Universitarias
+b) Coordinar las actividades de las Instituciones Universitarias
 nacionales de manera de regionalizar los procesos y generar acciones
 cooperativas para el mejor aprovechamiento de los recursos humanos que
 puedan emplearse en la capacitación.
 
-\c) Gestionar fondos ante los organismos competentes para llevar a cabo
+c) Gestionar fondos ante los organismos competentes para llevar a cabo
 programas de capacitación.
 
 La Comisión Asesora de Capacitación estará integrada por cuatro
@@ -1999,13 +2047,10 @@ General.
 Art. 130: En los casos en que haya una asignación de fondos específica
 para estos fines, la Comisión Asesora de Capacitación auditará su uso.
 
-[[título-9]]
-TÍTULO 9
-~~~~~~~~
+\subsection{TÍTULO 9}\label{tuxedtulo-9}
 
-[[evaluacion-de-desempeño]]
-EVALUACION DE DESEMPEÑO
-^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{EVALUACION DE
+DESEMPEÑO}\label{evaluacion-de-desempeuxf1o}
 
 Art. 131º: Se entiende por evaluación de desempeño, la realizada acerca
 de competencias, aptitudes y actitudes del trabajador, y del logro de
@@ -2026,33 +2071,33 @@ cualquier caso deberá integrarlo el jefe inmediato superior. A tal
 efecto se confeccionará un formulario, donde se registren calificaciones
 de 1 a 10 respecto de los factores que se mencionan a continuación:
 
-\a) nivel de presentismo y puntualidad
+a) nivel de presentismo y puntualidad
 
-\b) responsabilidad
+b) responsabilidad
 
-\c) conocimiento del área donde se desempeña
+c) conocimiento del área donde se desempeña
 
-\d) iniciativa
+d) iniciativa
 
-\e) eficiencia, eficacia y creatividad
+e) eficiencia, eficacia y creatividad
 
-\f) espíritu de colaboración
+f) espíritu de colaboración
 
-\g) ánimo de superación
+g) ánimo de superación
 
-\h) corrección personal
+h) corrección personal
 
-\i) sanciones disciplinarías merecidas durante el período evaluado.
+i) sanciones disciplinarías merecidas durante el período evaluado.
 
 Además, para el tramo superior, se evaluará:
 
-\j) capacidad de planificación y organización
+j) capacidad de planificación y organización
 
-\k) capacidad de conducción y liderazgo
+k) capacidad de conducción y liderazgo
 
-\I) objetividad y compromiso en el manejo del área
+I) objetividad y compromiso en el manejo del área
 
-\m) aptitud para calificar.
+m) aptitud para calificar.
 
 Una vez evaluados los ítems antes mencionados, se consignará su
 promedio. El puntaje mínimo para considerar la evaluación como positiva
@@ -2094,25 +2139,22 @@ para determinar su objetividad y eficiencia. Estará a cargo de
 funcionarios de la gestión, y su resultado se hará constar en el legajo
 respectivo.
 
-[[título-10]]
-TÍTULO 10
-~~~~~~~~~
+\subsection{TÍTULO 10}\label{tuxedtulo-10}
 
-[[regimen-disciplinario]]
-REGIMEN DISCIPLINARIO
-^^^^^^^^^^^^^^^^^^^^^
+\hyperdef{}{regimen-disciplinario}{\subsubsection{REGIMEN
+DISCIPLINARIO}\label{regimen-disciplinario}}
 
 Art. 140º: Los trabajadores no docentes de las Instituciones
 Universitarias nacionales se encontrarán sujetos a las siguientes
 medidas disciplinarias:
 
-\a) apercibimiento
+a) apercibimiento
 
-\b) suspensión de hasta treinta (30) días;
+b) suspensión de hasta treinta (30) días;
 
-\c) cesantía;
+c) cesantía;
 
-\d) exoneración.
+d) exoneración.
 
 Estas sanciones se aplicarán sin perjuicio de las responsabilidades
 civiles y penales que fijen las leyes vigentes.
@@ -2132,72 +2174,72 @@ antecedentes del agente y los perjuicios causados.
 
 Art. 141º: Son causales de la sanción de apercibimiento:
 
-\a) incumplimiento injustificado del horario de trabajo, de acuerdo a la
+a) incumplimiento injustificado del horario de trabajo, de acuerdo a la
 reglamentación que se acuerde en el ámbito de la Comisión Negociadora de
 Nivel General;
 
-\b) falta de respeto leve a miembros de la comunidad universitaria o al
+b) falta de respeto leve a miembros de la comunidad universitaria o al
 público;
 
-\c) negligencia menor en el cumplimiento de las funciones,
+c) negligencia menor en el cumplimiento de las funciones,
 
 Art. 142º: Son causales de la sanción de suspensión:
 
-\a) inasistencias injustificadas que no excedan los doce (12) días
+a) inasistencias injustificadas que no excedan los doce (12) días
 discontinuos de servicio, en el lapso de doce meses inmediatos
 anteriores a la primera;
 
-\b) falta de respeto grave a miembros de la comunidad universitaria o al
+b) falta de respeto grave a miembros de la comunidad universitaria o al
 público; excepto que por su magnitud implique una sanción mayor;
 
-\c) incumplimiento deliberado y no grave de las obligaciones y
+c) incumplimiento deliberado y no grave de las obligaciones y
 prohibiciones del régimen de empleo.
 
-\d) reincidencia, reiteración o agravación de las causales de
+d) reincidencia, reiteración o agravación de las causales de
 apercibimiento del artículo anterior.
 
 Art. 143º: Son causales de cesantía:
 
-\a) inasistencias injustificadas que excedan los doce (12) días
+a) inasistencias injustificadas que excedan los doce (12) días
 discontinuos de servicio en el lapso de los doce meses inmediatos
 posteriores a la primera;
 
-\b) abandono del servicio, que se configurará cuando medien seis (6) o
+b) abandono del servicio, que se configurará cuando medien seis (6) o
 más inasistencias injustificadas consecutivas del agente, y se haya
 cursado intimación fehaciente a retomar el servicio, emanada de
 autoridad competente, sin que ello se hubiera producido dentro de los
 dos días subsiguientes a la intimación;
 
-\c) falta de respeto a miembros de la comunidad universitaria o al
+c) falta de respeto a miembros de la comunidad universitaria o al
 público cuya magnitud afecte de tal forma a las personas o a la
 institución universitaria que desaconseje la continuidad en el empleo,
 lo que deberá estar suficientemente fundamentado;
 
-\d) incumplimiento deliberado y grave de las obligaciones y
-prohibiciones del régimen de empleo.
+d) incumplimiento deliberado y grave de las obligaciones y prohibiciones
+del régimen de empleo.
 
-\e) acumulación de treinta días de suspensión en los doce meses
+e) acumulación de treinta días de suspensión en los doce meses
 inmediatos anteriores;
 
-\f) quedar el agente incurso en alguna de las situaciones previstas en
-el art. 21º incs. a) o d); en este último caso sólo cuando la sanción
+f) quedar el agente incurso en alguna de las situaciones previstas en el
+art. 21º incs. a) o d); en este último caso sólo cuando la sanción
 sobreviniente sea de cesantía.
 
 Art. 144º: Serán causales de exoneración:
 
-\a) falta grave que perjudique material o moralmente a la Institución
+a) falta grave que perjudique material o moralmente a la Institución
 Universitaria;
 
-\b) condena firme cuya pena principal o accesoria sea la inhabilitación
+b) condena firme cuya pena principal o accesoria sea la inhabilitación
 absoluta o especial para ejercer cargos públicos.
 
-\c) sentencia condenatoria firme por delito contra la Administración
+c) sentencia condenatoria firme por delito contra la Administración
 Pública Nacional, Provincial o Municipal o contra cualquier Institución
 Universitaria Nacional,
 
-\d) quedar el agente incurso en alguna de las situaciones previstas en
-el art. 21º incs. b), c), d) —en caso de que la sanción hubiera sido de
-exoneración— o e).
+d) quedar el agente incurso en alguna de las situaciones previstas en el
+art. 21º incs. b), c), d) ---en caso de que la sanción hubiera sido de
+exoneración--- o e).
 
 Art. 145º. Procedimiento: A los fines de la aplicación de estas
 sanciones, se requerirá la instrucción de un sumario previo, conforme el
@@ -2241,13 +2283,9 @@ sustituir la medida aplicada por otra de mayor gravedad. El
 sobreseimiento o la absolución dictados en la causa criminal, no
 afectarán la sanción dispuesta en el orden administrativo.
 
-[[título-11]]
-TÍTULO 11
-~~~~~~~~~
+\subsection{TÍTULO 11}\label{tuxedtulo-11}
 
-[[disposiciones-generales]]
-DISPOSICIONES GENERALES
-^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{DISPOSICIONES GENERALES}\label{disposiciones-generales}
 
 Art. 149º: En el marco del presente convenio, las Instituciones
 Universitarias nacionales asignarán un área de responsabilidad
@@ -2255,10 +2293,10 @@ específica para su implementación y ejecución y de aquellos acuerdos que
 se articulen a nivel particular. Tendrá como misiones y funciones las
 de:
 
-\a) coordinar, gestionar y ejecutar políticas tendientes a poner en
+a) coordinar, gestionar y ejecutar políticas tendientes a poner en
 marcha los acuerdos,
 
-\b) mantener un sistema de información interconectado entre sus
+b) mantener un sistema de información interconectado entre sus
 dependencias y con la entidad que represente la unificación de la parte
 empleadora en los siguientes temas:
 
@@ -2285,14 +2323,14 @@ concreten en sus respectivos ámbitos.
 Art. 152º: La Comisión de Interpretación de Convenios y Solución de
 Conflictos, tendrá las siguientes funciones:
 
-\a) interpretar el Convenio Colectivo de los trabajadores no docentes de
+a) interpretar el Convenio Colectivo de los trabajadores no docentes de
 las Instituciones Universitarias nacionales a pedido de cualquiera de
 las partes, conforme lo establece el art. 14º del Decreto 1007/95.
 
-\b) interpretar los acuerdos particulares que las propias Comisiones
+b) interpretar los acuerdos particulares que las propias Comisiones
 Negociadoras de Nivel particular le sometan.
 
-\c) resolver las diferencias que puedan originarse entre las partes, ya
+c) resolver las diferencias que puedan originarse entre las partes, ya
 sea con motivo de la aplicación del Convenio Colectivo del sector o por
 cualquier otra causa que esté vinculada con la relación laboral.
 
@@ -2302,30 +2340,30 @@ reemplazados en la forma y con las modalidades que resuelva la parte que
 haya conferido la representación. Seguirá en su funcionamiento los
 siguientes pasos:
 
-\1) las situaciones requeridas deberán ser consideradas por la Comisión
+1) las situaciones requeridas deberán ser consideradas por la Comisión
 en un plazo máximo de cinco días hábiles de presentada la solicitud por
 ambas o cualquiera de las partes. Para el caso en que la presentación no
 haya sido conjunta, se dará traslado a la otra, dentro de los cinco
 días, y por un plazo igual.
 
-\2) con ambos elementos la Comisión deberá expedirse dentro de los cinco
+2) con ambos elementos la Comisión deberá expedirse dentro de los cinco
 días de vencido el último plazo del inciso anterior.
 
-\3) mientras se estén substanciando las causas en cuestión, las partes
-se abstendrán de realizar medidas de cualquier tipo que afecten el
-normal funcionamiento del servicio, dejándose aclarado que durante ese
-lapso quedarán en suspenso las medidas de carácter colectivo que hayan
-sido adoptadas con anterioridad por cualquiera de las partes.
+3) mientras se estén substanciando las causas en cuestión, las partes se
+abstendrán de realizar medidas de cualquier tipo que afecten el normal
+funcionamiento del servicio, dejándose aclarado que durante ese lapso
+quedarán en suspenso las medidas de carácter colectivo que hayan sido
+adoptadas con anterioridad por cualquiera de las partes.
 
-\4) agotada la instancia prevista sin haberse arribado a una solución,
+4) agotada la instancia prevista sin haberse arribado a una solución,
 cualquiera de las partes podrá presentarse ante la autoridad laboral de
 aplicación, solicitando la apertura de la negociación correspondiente.
 
-\5) quedará sujeto a análisis y resolución de esta Comisión determinar
-el alcance de las modificaciones legislativas que se puedan producir con
+5) quedará sujeto a análisis y resolución de esta Comisión determinar el
+alcance de las modificaciones legislativas que se puedan producir con
 relación aspectos contemplados en el presente convenio.
 
-\6) Finalmente, en cuanto a lo que esta Comisión interprete con respecto
+6) Finalmente, en cuanto a lo que esta Comisión interprete con respecto
 al Convenio Colectivo (puntos a y b de sus funciones), sus facultades no
 podrán excluir de ninguna manera a las judiciales.
 
@@ -2366,53 +2404,62 @@ de Educación de la Nación, conforme lo convenido en el Acta Acuerdo
 firmada entre el CIN, FATUN y el Ministerio de Educación, el día 4 de
 noviembre de 2004.
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-1.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-1.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-2.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-2.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg}
+\caption{}
+\end{figure}
 
-[[parte-iv-agrupamiento-asistencial]]
-PARTE IV: AGRUPAMIENTO ASISTENCIAL
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\subsection{PARTE IV: AGRUPAMIENTO
+ASISTENCIAL}\label{parte-iv-agrupamiento-asistencial}
 
-[[subgrupo-a-profesional.]]
-Subgrupo A: Profesional.
-^^^^^^^^^^^^^^^^^^^^^^^^
+\subsubsection{Subgrupo A: Profesional.}\label{subgrupo-a-profesional.}
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
-Agrupamiento Técnico — Profesional, A.— Profesional.
+Agrupamiento Técnico --- Profesional, A.--- Profesional.
 
-[[subgrupo-b]]
-Subgrupo B
-^^^^^^^^^^
+\subsubsection{Subgrupo B}\label{subgrupo-b}
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
-Agrupamiento Técnico — Profesional, según el caso.
+Agrupamiento Técnico --- Profesional, según el caso.
 
-[[subgrupo-c]]
-Subgrupo C
-^^^^^^^^^^
+\subsubsection{Subgrupo C}\label{subgrupo-c}
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Administrativo.
 
-[[subgrupo-d]]
-Subgrupo D
-^^^^^^^^^^
+\subsubsection{Subgrupo D}\label{subgrupo-d}
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Mantenimiento, Producción y Servicios.
 
-[[fe-de-erratas]]
--FE DE ERRATAS—
-~~~~~~~~~~~~~~~
+\subsection{-FE DE ERRATAS---}\label{fe-de-erratas}
 
-*Decreto 366/2006*
+\textbf{Decreto 366/2006}
 
 En la edición del 5 de abril de 2006, en la que se publicó el mencionado
 Decreto, se deslizaron errores de compaginación en las Partes II y III
@@ -2420,8 +2467,22 @@ del Tipificador de Funciones, que integra el Convenio Colectivo anexo a
 dicha norma, motivo por el cual se transcriben a continuación en forma
 correcta dichas Partes
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg}
+\caption{}
+\end{figure}
 
-image:http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg[image]
+\begin{figure}[htbp]
+\centering
+\includegraphics{http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg}
+\caption{}
+\end{figure}
+
+\end{document}
