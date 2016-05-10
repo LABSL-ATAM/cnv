@@ -1066,17 +1066,15 @@ expresados, teniendo en cuenta los coeficientes que a continuación se
 detallan, y cuyo monto testigo es el coeficiente 1.00 = a la categoría
 7.
 
-+-------------+------------+-------------+  
-|  CATEGORIAS |  BASICOS   |  TRAMOS     |  
-+-------------+------------+-------------+  
-|  7          |  1.00      |  INICIAL    |  
-|  6          |  1.20      |             |  
-|  5          |  1.44      |             |  
-|  4          |  1.73      |  INTERMEDIO |  
-|  3          |  2.08      |             |  
-|  2          |  2.50      |  MAYOR      |  
-|  1          |  3.00      |             |  
-+-------------+------------+-------------+  
+CATEGORIAS | BASICOS | TRAMOS
+--- | --- | ---
+7 |  1.00 | INICIAL    |  
+6 |  1.20 |            |  
+5 |  1.44 |            |  
+4 |  1.73 | INTERMEDIO |  
+3 |  2.08 | MAYOR      |  
+1 |  3.00 |            |  
+
 
 #### Adicionales
 
