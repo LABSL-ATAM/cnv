@@ -1,4 +1,4 @@
-Convenio Colectivo 
+# Convenio Colectivo No Docente
 
 **Decreto 366/2006**
 
