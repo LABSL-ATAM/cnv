@@ -1,16 +1,16 @@
-# Convenio Colectivo No Docente
+Convenio Colectivo 
 
 **Decreto 366/2006**
 
-[PRINCIPIOS GENERALES](#1)  
-[CONDICIONES INGRESO Y EGRESO](#2)  
-[REGIMEN DE CONCURSOS](#3)  
-[RETRIBUCIONES](#4)  
-[TIEMPO DE TRABAJO](#5)  
-[SALUD E HIGIENE](#6)  
-[CAPACITACIÓN](#7)
-[EVALUACIÓN DE DESEMPEÑO](#8)  
-[DISCIPLINA](#9)  
+[PRINCIPIOS GENERALES](#principios-generales)  
+[CONDICIONES INGRESO Y EGRESO](#condiciones-ingreso-y-egreso)  
+[REGIMEN DE CONCURSOS](#regimen-de-concursos)  
+[RETRIBUCIONES](#retribuciones)  
+[TIEMPO DE TRABAJO](#tiempo-de-trabajo)  
+[SALUD E HIGIENE](#salud-e-higiene)  
+[CAPACITACIÓN](#capacitacion)
+[EVALUACIÓN DE DESEMPEÑO](#evaluacion-de-desempeno)  
+[DISCIPLINA](#disciplina)  
 
 **UNIVERSIDADES NACIONALES**
 
@@ -169,7 +169,7 @@ FATUN.
 
 ## TÍTULO 2
 
-### <a name"1"></a>PRINCIPIOS GENERALES
+### PRINCIPIOS GENERALES
 
 Art. 6º: Fines compartidos: Constituye objeto esencial en el accionar de
 las partes realizar las acciones tendientes a brindar el más eficaz
@@ -500,7 +500,7 @@ Instituciones Universitarias nacionales y del trabajador.
 
 ## TÍTULO 3
 
-### <a name"2"></a>CONDICIONES PARA EL INGRESO Y EGRESO
+### CONDICIONES PARA EL INGRESO Y EGRESO
 
 Art. 21º: Para ingresar como trabajador de una Institución Universitaria
 nacional se requieren las condiciones de conducta e idoneidad para el
@@ -553,7 +553,7 @@ renuncia se regirán por la normativa vigente en la materia.
 
 ## TÍTULO 4
 
-### <a name"3"></a>REGIMEN DE CONCURSOS
+### REGIMEN DE CONCURSOS
 
 Art. 24º: El presente título regula las pautas generales de los
 procedimientos de selección de personal no docente para la cobertura de
@@ -803,7 +803,7 @@ concursante que siga en el orden de méritos.
 
 ## TÍTULO 5
 
-### <a name"4"></a>AGRUPAMIENTOS Y RETRIBUCIONES
+### AGRUPAMIENTOS Y RETRIBUCIONES
 
 Agrupamientos
 
@@ -1324,7 +1324,7 @@ colectivo serán resuelta por la comisión creada al efecto.
 
 ## TÍTULO 6
 
-### <a name"5"></a>TIEMPO DE TRABAJO
+### TIEMPO DE TRABAJO
 
 #### Jornada de trabajo
 
@@ -1726,7 +1726,7 @@ agente.
 
 ## TÍTULO 7
 
-### <a name"6"></a>SALUD E HIGIENE
+### SALUD E HIGIENE
 
 Art. 114º: Las Instituciones Universitarias nacionales deben hacer
 observar las pautas y limitaciones al trabajo establecido en leyes,
@@ -1833,7 +1833,7 @@ el futuro la reemplace.
 
 ## TÍTULO 8
 
-### <a name"7"></a>CAPACITACION
+### CAPACITACION
 
 Art. 119º: Las Instituciones Universitarias nacionales deberán ofrecer a
 sus trabajadores cursos de capacitación permanente, que posibiliten su
@@ -1930,7 +1930,7 @@ para estos fines, la Comisión Asesora de Capacitación auditará su uso.
 
 ## TÍTULO 9
 
-### <a name"8"></a>EVALUACION DE DESEMPEÑO
+### EVALUACION DE DESEMPEÑO
 
 Art. 131º: Se entiende por evaluación de desempeño, la realizada acerca
 de competencias, aptitudes y actitudes del trabajador, y del logro de
@@ -2021,7 +2021,7 @@ respectivo.
 
 ## TÍTULO 10
 
-### <a name"9"></a>REGIMEN DISCIPLINARIO
+### REGIMEN DISCIPLINARIO
 
 Art. 140º: Los trabajadores no docentes de las Instituciones
 Universitarias nacionales se encontrarán sujetos a las siguientes
@@ -2295,27 +2295,27 @@ noviembre de 2004.
 
 ## PARTE IV: AGRUPAMIENTO ASISTENCIAL
 
-#### Subgrupo A: Profesional.
+### Subgrupo A: Profesional.
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Técnico — Profesional, A.— Profesional.
 
-#### Subgrupo B
+### Subgrupo B
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Técnico — Profesional, según el caso.
 
-#### Subgrupo C
+### Subgrupo C
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Administrativo.
 
-#### Subgrupo D
+### Subgrupo D
 
 Se aplicará, en lo pertinente, las definiciones realizadas para el
 Agrupamiento Mantenimiento, Producción y Servicios.
 
-## FE DE ERRATAS—
+## -FE DE ERRATAS—
 
 **Decreto 366/2006**
 
@@ -2330,3 +2330,9 @@ correcta dichas Partes
 ![](http://www.fatun.org.ar/convenio_archivos/dto366-8.jpg)
 
 ![](http://www.fatun.org.ar/convenio_archivos/dto366-9.jpg)
+
+ 
+
+ 
+
+ 
