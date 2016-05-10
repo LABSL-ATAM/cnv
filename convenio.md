@@ -8,7 +8,7 @@ Convenio Colectivo
 [RETRIBUCIONES](#retribuciones)  
 [TIEMPO DE TRABAJO](#tiempo-de-trabajo)  
 [SALUD E HIGIENE](#salud-e-higiene)  
-[CAPACITACIÓN](#capacitacion)
+[CAPACITACIÓN](#capacitacion)  
 [EVALUACIÓN DE DESEMPEÑO](#evaluacion-de-desempeno)  
 [DISCIPLINA](#disciplina)  
 
