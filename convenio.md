@@ -2281,15 +2281,15 @@ de Educación de la Nación, conforme lo convenido en el Acta Acuerdo
 firmada entre el CIN, FATUN y el Ministerio de Educación, el día 4 de
 noviembre de 2004.
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-5.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-1.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-6.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-2.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-7.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-8.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-9.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg)
 
 ## PARTE IV: AGRUPAMIENTO ASISTENCIAL
 
@@ -2323,11 +2323,11 @@ del Tipificador de Funciones, que integra el Convenio Colectivo anexo a
 dicha norma, motivo por el cual se transcriben a continuación en forma
 correcta dichas Partes
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-7.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-3.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-8.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-4.jpg)
 
-![](http://www.fatun.org.ar/convenio_archivos/dto366-9.jpg)
+![](http://www.fatun.org.ar/convenio_archivos/dto366-5-4-2006-5.jpg)
 
  
 
