@@ -1069,11 +1069,12 @@ detallan, y cuyo monto testigo es el coeficiente 1.00 = a la categoría
 CATEGORIAS | BASICOS | TRAMOS
 --- | --- | ---
 7 |  1.00 | INICIAL    |  
-6 |  1.20 |            |  
-5 |  1.44 |            |  
+6 |  1.20 | INICIAL    |  
+5 |  1.44 | INICIAL    |  
 4 |  1.73 | INTERMEDIO |  
-3 |  2.08 | MAYOR      |  
-1 |  3.00 |            |  
+3 |  2.08 | INTERMEDIO |  
+2 |  2.50 | MAYOR      |  
+1 |  3.00 | MAYOR      |  
 
 
 #### Adicionales
